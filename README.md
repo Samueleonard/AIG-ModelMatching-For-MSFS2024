@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This package provides the latest version of the [AlphaIndiaGroup](https://www.alpha-india.net) (AIG) AI traffic models for **MSFS 2024** in a single, easy-to-use download. It eliminates the need for the clunky and time-consuming installation manager from AIG, allowing for a faster and simpler setup.
+This package provides the latest version of the [AlphaIndiaGroup](https://www.alpha-india.net) (AIG) AI traffic models for **MSFS 2024** in a single, easy-to-use download. It reduces the need to use the clunky and time-consuming installer from AIG, for a fast and simple setup.
 
 ## Installation Instructions
 
@@ -20,7 +20,7 @@ This package provides the latest version of the [AlphaIndiaGroup](https://www.al
    - [Download WinRAR](https://www.win-rar.com/)
 
 ### 4. **Using vPilot with VATSIM**
-   If you are using **VATSIM** and want to use model matching, the VMR file is included in the download. You can select it through the **'Custom Rules'** menu in vPilot.
+   If you are using **VATSIM** and want to use model matching, the VMR file is included in the download. You can select it through the **'Custom Rules'** menu in vPilot settings.
 
    **Important**: Only use the download link provided above. **DO NOT** download from the GitHub repository, as this will not work correctly.
 
@@ -28,10 +28,10 @@ This package provides the latest version of the [AlphaIndiaGroup](https://www.al
 
 ## Manual Updates
 
-As the pack will not be updated frequently, you may need to manually update your installation using the **AIG Manager Tool**. The tool is available for download here:
+As the pack may not be updated frequently, you may need to manually update your installation using the **AIG Manager Tool**. The tool is available for download here:
 - [AIG Manager Tool](https://www.alpha-india.net/software/)
 
-Please note that **no support is provided** for manual updates, and compatibility cannot be guaranteed.
+Please note that **no support is provided** for manual updates, and full compatibility cannot be guaranteed.
 
 ---
 
@@ -39,11 +39,11 @@ Please note that **no support is provided** for manual updates, and compatibilit
 
 ### What is FSLTL?
 
-**FSLTL** (FSLiveTrafficLiveries) is a similar project to AIG, offering a model matching solution and live traffic injection using real-time data from **Flightradar24**. FSLTL is a separate project and is **NOT INCLUDED** in the AIG download.
+**FSLTL** (FSLiveTrafficLiveries) is a similar project to AIG, offering a model matching solution and live traffic injection using real-time data from **Flightradar24**. FSLTL is a separate project and is **NOT INCLUDED** in this download.
 
 ### Can I Use FSLTL and AIG Together?
 
-Yes, you can use both **FSLTL** and **AIG** together. To do so, you will need to place the **VMR files** for both FSLTL and AIG into **vPilot**, ensuring that AIG’s VMR file is at the top so it has priority for model matching.
+Yes, you can use both **FSLTL** and **AIG** together. To do so, you will need to place the VMR files for both FSLTL and AIG into vPilot, ensuring that **AIG’s** VMR file is at the **top** so it has priority for model matching.
 
 - FSLTL is available for free through the [FlyByWire Installer](https://api.flybywiresim.com/installer).
 
@@ -51,7 +51,7 @@ Yes, you can use both **FSLTL** and **AIG** together. To do so, you will need to
 
 ## Usage with Online Networks (VATSIM)
 
-The **VMR file** included in this pack for **vPilot** has not been tested with **MSFS 2024**. Therefore, compatibility with **MSFS 2024** for VATSIM is not guaranteed.
+A VMR file is included in the download for vPilot/VATSIM use. To install this file, select it through the vPilot settings / Model Matching (FS2024) / Custom Rules / Add Custom Rule Sets
 
 ---
 
