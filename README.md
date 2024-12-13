@@ -3,7 +3,7 @@
 ## Introduction
 
 This package provides the latest version of the [AlphaIndiaGroup](https://www.alpha-india.net) (AIG) AI traffic models for **MSFS 2024** in a single, easy-to-use download. It reduces the need to use the clunky and time-consuming installer from AIG, for a fast and simple setup.
-
+This pack is designed for use for VATSIM and not for the offline traffic features (more infomation below)
 Backwards compatibility to MSFS 2020 is not tested and no support will be given.
 
 ## Installation Instructions
@@ -55,7 +55,7 @@ Yes, you can use both **FSLTL** and **AIG** together. To do so, you will need to
 
 ## Usage with Online Networks (VATSIM)
 
-A VMR file is not included in the download. You will need to download one from a 3rd party, i recommend [this one](https://flightsim.to/file/23365/full-vatsim-aig-beta-model-matching). 
+A VMR file is not included in the download. You will need to download one from a 3rd party, i recommend [this one](https://flightsim.to/file/23365/full-vatsim-aig-beta-model-matching) by [BritishAvgeek](https://www.youtube.com/@BritishAvgeek). 
 Download and select it through the vPilot settings / Model Matching (FS2024) / Custom Rules / Add Custom Rule Sets
 
 ---
