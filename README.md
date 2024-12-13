@@ -4,6 +4,8 @@
 
 This package provides the latest version of the [AlphaIndiaGroup](https://www.alpha-india.net) (AIG) AI traffic models for **MSFS 2024** in a single, easy-to-use download. It reduces the need to use the clunky and time-consuming installer from AIG, for a fast and simple setup.
 
+Backwards compatibility to MSFS 2020 is not tested and no support will be given.
+
 ## Installation Instructions
 
 ### 1. **Download**
