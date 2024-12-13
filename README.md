@@ -19,27 +19,29 @@ This package provides the latest version of the [AlphaIndiaGroup](https://www.al
    - [Download 7zip](https://www.7-zip.org/)
    - [Download WinRAR](https://www.win-rar.com/)
 
-### 4. **Using vPilot with VATSIM**
-   If you are using **VATSIM** and want to use model matching, the VMR file is included in the download. You can select it through the **'Custom Rules'** menu in vPilot settings.
+### 4. **Using AIG with VATSIM**
+   If you are using **VATSIM** and want to use model matching, you will need a VMR file to link the models to their respective airlines. You will need to download one from a 3rd party, I recommend [this one](https://flightsim.to/file/23365/full-vatsim-aig-beta-model-matching) 
+   You can then select it through the **'Custom Rules'** menu in vPilot settings. 
+   ![image](https://github.com/user-attachments/assets/fad52638-a512-4d89-9ece-5569a06fedad)
 
-   **Important**: Only use the download link provided above. **DO NOT** download from the GitHub repository, as this will not work correctly.
+
+**Important**: **Only** use the Google Drive download link provided above. **DO NOT** download from the GitHub repository, as this will **not** work.
 
 ---
 
 ## Manual Updates
 
-As the pack may not be updated frequently, you may need to manually update your installation using the **AIG Manager Tool**. The tool is available for download here:
-- [AIG Manager Tool](https://www.alpha-india.net/software/)
+As this pack may not be updated frequently, you may need to manually update your installation using the **AIG Manager Tool**. The tool is available for download [here](https://www.alpha-india.net/software/)
 
 Please note that **no support is provided** for manual updates, and full compatibility cannot be guaranteed.
 
 ---
 
-## Usage with FSLiveTrafficLiveries (FSLTL)
+## Usage with FSLTL (FSLiveTrafficLiveries)
 
 ### What is FSLTL?
 
-**FSLTL** (FSLiveTrafficLiveries) is a similar project to AIG, offering a model matching solution and live traffic injection using real-time data from **Flightradar24**. FSLTL is a separate project and is **NOT INCLUDED** in this download.
+**FSLTL**  is a similar project to AIG, offering a model matching solution and live traffic injection using real-time data from **Flightradar24**. FSLTL is a separate project and is **NOT INCLUDED** in this download.
 
 ### Can I Use FSLTL and AIG Together?
 
@@ -51,17 +53,18 @@ Yes, you can use both **FSLTL** and **AIG** together. To do so, you will need to
 
 ## Usage with Online Networks (VATSIM)
 
-A VMR file is included in the download for vPilot/VATSIM use. To install this file, select it through the vPilot settings / Model Matching (FS2024) / Custom Rules / Add Custom Rule Sets
+A VMR file is not included in the download. You will need to download one from a 3rd party, i recommend [this one](https://flightsim.to/file/23365/full-vatsim-aig-beta-model-matching). 
+Download and select it through the vPilot settings / Model Matching (FS2024) / Custom Rules / Add Custom Rule Sets
 
 ---
 
 ## Usage with Offline Traffic
 
-The offline flight plans, have not been tested for **MSFS 2024**. Thus, compatibility is not confirmed.
+The offline flight plans are included but have **not** been tested. Thus, compatibility is not confirmed and support wil not be given.
 
 ---
 
 ## Payware Models
-AIG has included some payware models in the installer, these **will not** be distributed in this free pack. Any payware models that are purchased by the user will be removed from the installer before distribution. Payware models will not be uploaded to the final download or to the GitHub repository.
+AIG has the option to use payware  models in the installer, these **will not** be distributed in this free pack. Any payware models that are purchased by me will be removed from this package before distribution. Payware models will not be uploaded to the final download or to the GitHub repository.
 
-If you choose to use payware model with AIG, you will need to manually update your installation using the [AIG Manager Tool((https://www.alpha-india.net/software/)).
+If you choose to use payware model with AIG, you will need to manually update your installation using the [AIG Manager Tool](https://www.alpha-india.net/software/). No support is given for this.
