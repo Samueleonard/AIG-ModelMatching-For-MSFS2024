@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="30" ModelFile="DJC_BD-700_5000_IR_Cam_MSFS_LOD0.gltf"/>
+		<LOD minSize="29" ModelFile="DJC_BD-700_5000_IR_Cam_MSFS_LOD1.gltf"/>
+		<LOD minSize="26" ModelFile="DJC_BD-700_5000_IR_Cam_MSFS_LOD2.gltf"/>
+		<LOD minSize="3" ModelFile="DJC_BD-700_5000_IR_Cam_MSFS_LOD3.gltf"/>
+		<LOD minSize="0.5" ModelFile="DJC_BD-700_5000_IR_Cam_MSFS_LOD4.gltf"/>
+	</LODS>
+
+	<Behaviors>
+		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\DJC_Bombardier_GlobalExpress.xml"/>
+	</Behaviors>
+
+</ModelInfo>

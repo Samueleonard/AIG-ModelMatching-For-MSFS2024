@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="17" ModelFile="HTAI Britten-Norman BN-2 Islander Long Nose MSFS_LOD0.gltf"/>
+		<LOD minSize="11" ModelFile="HTAI Britten-Norman BN-2 Islander Long Nose MSFS_LOD1.gltf"/>
+		<LOD minSize="9" ModelFile="HTAI Britten-Norman BN-2 Islander Long Nose MSFS_LOD2.gltf"/>
+		<LOD minSize="7" ModelFile="HTAI Britten-Norman BN-2 Islander Long Nose MSFS_LOD3.gltf"/>
+		<LOD minSize="6" ModelFile="HTAI Britten-Norman BN-2 Islander Long Nose MSFS_LOD4.gltf"/>
+		<LOD minSize="2" ModelFile="HTAI Britten-Norman BN-2 Islander Long Nose MSFS_LOD5.gltf"/>
+		<LOD minSize="1" ModelFile="HTAI Britten-Norman BN-2 Islander Long Nose MSFS_LOD6.gltf"/>
+		<LOD minSize="0.5" ModelFile="HTAI Britten-Norman BN-2 Islander Long Nose MSFS_LOD7.gltf"/>
+	</LODS>
+
+	<Behaviors>
+		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\HTAI_BrittenNorman_BN2.xml"/>
+	</Behaviors>
+
+</ModelInfo>
