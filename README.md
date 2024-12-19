@@ -8,6 +8,8 @@ Backwards compatibility to MSFS 2020 is not tested and no support will be given.
 
 ## Installation Instructions
 
+**Important**: **Only** use the Google Drive download link provided below. **DO NOT** download from the GitHub repository, as this will **not** work.
+
 ### 1. **Download**
    Download the latest AIG pack from the provided link:
    - [Google Drive N/A]()  
@@ -25,9 +27,6 @@ Backwards compatibility to MSFS 2020 is not tested and no support will be given.
    If you are using **VATSIM** and want to use model matching, you will need a VMR file to link the models to their respective airlines. You will need to download one from a 3rd party, I recommend [this one](https://flightsim.to/file/23365/full-vatsim-aig-beta-model-matching) 
    You can then select it through the **'Custom Rules'** menu in vPilot settings. 
    ![image](https://github.com/user-attachments/assets/fad52638-a512-4d89-9ece-5569a06fedad)
-
-
-**Important**: **Only** use the Google Drive download link provided above. **DO NOT** download from the GitHub repository, as this will **not** work.
 
 ---
 
