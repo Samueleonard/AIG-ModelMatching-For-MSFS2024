@@ -1,0 +1,134 @@
+<ModelBehaviors>
+	<Include ModelBehaviorFile="AIG\Common.xml"/>
+	<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\Lights.xml"/>
+
+	<Component ID="Landing_Gear">
+		<UseTemplate Name="AIG_Gear_Center_Template">
+			<RETRACT_TIME>5</RETRACT_TIME>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Gear_Left_Template">
+			<RETRACT_TIME>6</RETRACT_TIME>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Gear_Right_Template">
+			<RETRACT_TIME>6</RETRACT_TIME>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="Wheels">
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>c_tire_still_key</ANIM_NAME>
+			<WHEEL_ID>0</WHEEL_ID>
+			<WHEEL_DIAMETER>1.770833</WHEEL_DIAMETER>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>l_tire_still_key</ANIM_NAME>
+			<WHEEL_ID>1</WHEEL_ID>
+			<WHEEL_DIAMETER>3.258333</WHEEL_DIAMETER>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>r_tire_still_key</ANIM_NAME>
+			<WHEEL_ID>2</WHEEL_ID>
+			<WHEEL_DIAMETER>3.258333</WHEEL_DIAMETER>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="Nosewheel_Steering">
+		<UseTemplate Name="AIG_Nosewheel_Steering">
+			<ANIM_NAME>custom_anim_C_WHEEL_LR</ANIM_NAME>
+			<ANIM_SHARPNESS>-20</ANIM_SHARPNESS>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="Spoiler_L">
+		<UseTemplate Name="AIG_Spoiler_L_key"/>
+		<UseTemplate Name="AIG_Spoiler_R_key"/>
+	</Component>
+	
+	<Component ID="Reverse_Thrust">
+		<UseTemplate Name="AIG_Reverse_Thrust"/>
+	</Component>
+	
+	<Component ID="Engines">
+		<UseTemplate Name="AIG_Engine_Base_Template">
+			<NUMBER_OF_ENGINES>2</NUMBER_OF_ENGINES>
+			<ENGINE_TYPE>Jet</ENGINE_TYPE>
+			<MAX_RPM>6096</MAX_RPM>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Engine_Visibility">
+		<Parameters Type="Override">
+			<ENGINE_TYPE>Jet</ENGINE_TYPE>
+		</Parameters>
+		<Component ID="Engine1">
+			<UseTemplate Name="AIG_Engine_Visibility_Template">
+				<ENGINE_ID>1</ENGINE_ID>
+				<NODE_PREFIX>N1_0_</NODE_PREFIX>
+				<STILL_NODE_ID>still_VC</STILL_NODE_ID>
+				<SLOW_NODE_ID>slow_VC</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>blurred_VC</BLURRED_NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="Engine2">
+			<UseTemplate Name="AIG_Engine_Visibility_Template">
+				<ENGINE_ID>2</ENGINE_ID>
+				<NODE_PREFIX>N1_1_</NODE_PREFIX>
+				<STILL_NODE_ID>still_VC</STILL_NODE_ID>
+				<SLOW_NODE_ID>slow_VC</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>blurred_VC</BLURRED_NODE_ID>
+			</UseTemplate>
+		</Component>
+	</Component>
+	
+	<Component ID="Wingflex">
+		<UseTemplate Name="AIG_Wingflex">
+			<ANIM_NAME>AI_Wingflex</ANIM_NAME>
+			<WING_ID>1</WING_ID>
+			<INTERVAL1>1.8</INTERVAL1>
+			<INTERVAL2>2.4</INTERVAL2>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Flaps">
+		<UseTemplate Name="AIG_Flaps">
+			<FLAP_TO_DEGREES>38</FLAP_TO_DEGREES>
+			<FLAP1_SPEED>160</FLAP1_SPEED>
+			<FLAP1_DEGREES>100</FLAP1_DEGREES>
+			<FLAP2_SPEED>186</FLAP2_SPEED>
+			<FLAP2_DEGREES>70</FLAP2_DEGREES>
+			<FLAP3_SPEED>196</FLAP3_SPEED>
+			<FLAP3_DEGREES>38</FLAP3_DEGREES>
+			<FLAP4_SPEED>215</FLAP4_SPEED>
+			<FLAP4_DEGREES>28</FLAP4_DEGREES>
+		</UseTemplate>
+    </Component>
+
+	<Component ID="Parts_Visibility">
+		<UseTemplate Name="AIG_Visibility_Template">
+			<PART>LogoLight</PART>
+			<NODE_PREFIX>logo_</NODE_PREFIX>
+			<NODE_ID>l</NODE_ID>
+			<NODE_ID_2>r</NODE_ID_2>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Visibility_Template">
+			<PART>LandingLight_NoseGear</PART>
+			<NODE_ID>landing_nose</NODE_ID>
+		</UseTemplate>
+	</Component>
+		
+	<Component ID="Effects">
+		<UseTemplate Name="AIG_TwinEngineJet_Effects"/>
+		<UseTemplate Name="AIG_LandingFX">
+			<Medium>True</Medium>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Fuselage_DimCabin">
+		<UseTemplate Name="AIG_Fuselage_DimCabin">
+			<NODE_ID>cabin_lights_VC</NODE_ID>
+			<TIME_START>26100</TIME_START>
+			<TIME_END>80100</TIME_END>
+		</UseTemplate>
+	</Component>
+
+</ModelBehaviors>

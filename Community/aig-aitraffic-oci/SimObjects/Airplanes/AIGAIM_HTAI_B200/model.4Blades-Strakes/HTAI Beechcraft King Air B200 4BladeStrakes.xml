@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="26" ModelFile="HTAI Beechcraft King Air B200 4BladeStrakes_LOD0.gltf"/>
+		<LOD minSize="22" ModelFile="HTAI Beechcraft King Air B200 4BladeStrakes_LOD1.gltf"/>
+		<LOD minSize="21" ModelFile="HTAI Beechcraft King Air B200 4BladeStrakes_LOD2.gltf"/>
+		<LOD minSize="18" ModelFile="HTAI Beechcraft King Air B200 4BladeStrakes_LOD3.gltf"/>
+		<LOD minSize="17" ModelFile="HTAI Beechcraft King Air B200 4BladeStrakes_LOD4.gltf"/>
+		<LOD minSize="16" ModelFile="HTAI Beechcraft King Air B200 4BladeStrakes_LOD5.gltf"/>
+		<LOD minSize="3" ModelFile="HTAI Beechcraft King Air B200 4BladeStrakes_LOD6.gltf"/>
+		<LOD minSize="0.5" ModelFile="HTAI Beechcraft King Air B200 4BladeStrakes_LOD7.gltf"/>
+	</LODS>
+
+	<Behaviors>
+		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\HTAI_Beechcraft_KingAir200.xml"/>
+	</Behaviors>
+
+</ModelInfo>

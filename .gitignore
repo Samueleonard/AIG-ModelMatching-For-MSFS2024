@@ -1,0 +1,11 @@
+*.pyc
+__pycache__/
+*.zip
+Community.7z
+*.tmp
+*.bak
+*.dds
+*.dds.json
+*.bin
+*.cfgaig
+*.jpg
