@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="16" ModelFile="HTAI Cessna 182 Skylane Late MSFS_LOD0.gltf"/>
+		<LOD minSize="15" ModelFile="HTAI Cessna 182 Skylane Late MSFS_LOD1.gltf"/>
+		<LOD minSize="11" ModelFile="HTAI Cessna 182 Skylane Late MSFS_LOD2.gltf"/>
+		<LOD minSize="7" ModelFile="HTAI Cessna 182 Skylane Late MSFS_LOD3.gltf"/>
+		<LOD minSize="3" ModelFile="HTAI Cessna 182 Skylane Late MSFS_LOD4.gltf"/>
+		<LOD minSize="0.5" ModelFile="HTAI Cessna 182 Skylane Late MSFS_LOD5.gltf"/>
+	</LODS>
+
+	<Behaviors>
+		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\HTAI_Cessna_SE.xml"/>
+
+		<Component ID="HTAI_Cessna_SE_Templates">
+			<UseTemplate Name="HTAI_Cessna_Steering"/>
+			<UseTemplate Name="HTAI_Cessna_182_Flaps"/>
+			<UseTemplate Name="HTAI_Cessna_GroundParts"/>
+		</Component>
+
+	</Behaviors>
+
+</ModelInfo>

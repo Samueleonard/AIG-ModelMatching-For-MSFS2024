@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="46" ModelFile="AIG_B757-300_PW_W_LOD0.gltf">
+			<AttachModel id="CargoDoors"/>
+		</LOD>
+		<LOD minSize="42" ModelFile="AIG_B757-300_PW_W_LOD1.gltf">
+			<AttachModel id="CargoDoors"/>
+		</LOD>
+		<LOD minSize="40" ModelFile="AIG_B757-300_PW_W_LOD2.gltf">
+			<AttachModel id="CargoDoors"/>
+		</LOD>
+		<LOD minSize="37" ModelFile="AIG_B757-300_PW_W_LOD3.gltf"/>
+		<LOD minSize="35" ModelFile="AIG_B757-300_PW_W_LOD4.gltf"/>
+		<LOD minSize="33" ModelFile="AIG_B757-300_PW_W_LOD5.gltf"/>
+		<LOD minSize="29" ModelFile="AIG_B757-300_PW_W_LOD6.gltf"/>
+		<LOD minSize="18" ModelFile="AIG_B757-300_PW_W_LOD7.gltf"/>
+		<LOD minSize="3" ModelFile="AIG_B757-300_PW_W_LOD8.gltf"/>
+		<LOD minSize="0.5" ModelFile="AIG_B757-300_PW_W_LOD9.gltf"/>
+	</LODS>
+	<ModelAttachments>
+		<ModelAttachment id="CargoDoors">
+			<Model>AIG_B757-300_PW_cargo.xml</Model>
+		</ModelAttachment>
+	</ModelAttachments>
+
+	<Behaviors>
+		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\AIG_Boeing_757.xml"/>
+
+		<Component ID="Engine_Visibility">
+			<UseTemplate Name="AIG_Boeing_757_PW_Engine_Visibility"/>
+		</Component>
+
+	</Behaviors>
+
+</ModelInfo>

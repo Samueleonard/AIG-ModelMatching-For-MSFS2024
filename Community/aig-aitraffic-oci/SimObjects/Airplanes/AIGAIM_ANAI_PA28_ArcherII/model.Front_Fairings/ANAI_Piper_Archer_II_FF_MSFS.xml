@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="15" ModelFile="ANAI_Piper_Archer_II_FF_MSFS_LOD0.gltf"/>
+		<LOD minSize="14" ModelFile="ANAI_Piper_Archer_II_FF_MSFS_LOD1.gltf"/>
+		<LOD minSize="13" ModelFile="ANAI_Piper_Archer_II_FF_MSFS_LOD2.gltf"/>
+		<LOD minSize="3" ModelFile="ANAI_Piper_Archer_II_FF_MSFS_LOD3.gltf"/>
+		<LOD minSize="0.5" ModelFile="ANAI_Piper_Archer_II_FF_MSFS_LOD4.gltf"/>
+	</LODS>
+
+	<Behaviors>
+		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\ANAI_Piper.xml"/>
+
+		<Component ID="ANAI_Piper_Templates">
+			<UseTemplate Name="ANAI_Piper_Steering"/>
+			<UseTemplate Name="ANAI_Piper_Elevator"/>
+			<UseTemplate Name="ANAI_Piper_Archer_Flaps"/>
+		</Component>
+
+	</Behaviors>
+
+</ModelInfo>

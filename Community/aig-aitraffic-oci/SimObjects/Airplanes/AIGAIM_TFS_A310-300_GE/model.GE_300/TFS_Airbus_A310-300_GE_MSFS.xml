@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="37" ModelFile="TFS_Airbus_A310-300_GE_MSFS_LOD0.gltf"/>
+		<LOD minSize="34" ModelFile="TFS_Airbus_A310-300_GE_MSFS_LOD1.gltf"/>
+		<LOD minSize="30" ModelFile="TFS_Airbus_A310-300_GE_MSFS_LOD2.gltf"/>
+		<LOD minSize="20" ModelFile="TFS_Airbus_A310-300_GE_MSFS_LOD3.gltf"/>
+		<LOD minSize="3" ModelFile="TFS_Airbus_A310-300_GE_MSFS_LOD4.gltf"/>
+		<LOD minSize="0.5" ModelFile="TFS_Airbus_A310-300_GE_MSFS_LOD5.gltf"/>
+	</LODS>
+
+	<Behaviors>
+		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\TFS_Airbus_A310.xml"/>
+	</Behaviors>
+
+</ModelInfo>

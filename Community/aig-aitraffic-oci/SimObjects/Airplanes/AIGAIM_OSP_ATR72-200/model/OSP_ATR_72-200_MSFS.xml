@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="22" ModelFile="OSP_ATR_72-200_MSFS_LOD0.gltf"/>
+		<LOD minSize="20" ModelFile="OSP_ATR_72-200_MSFS_LOD1.gltf"/>
+		<LOD minSize="17" ModelFile="OSP_ATR_72-200_MSFS_LOD2.gltf"/>
+		<LOD minSize="13" ModelFile="OSP_ATR_72-200_MSFS_LOD3.gltf"/>
+		<LOD minSize="1" ModelFile="OSP_ATR_72-200_MSFS_LOD4.gltf"/>
+		<LOD minSize="0.5" ModelFile="OSP_ATR_72-200_MSFS_LOD5.gltf"/>
+	</LODS>
+
+	<Behaviors>
+		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\OSP_ATR.xml"/>
+	</Behaviors>
+
+</ModelInfo>

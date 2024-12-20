@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="55" ModelFile="TFS_Airbus_A380_EA_LOD0.gltf">
+			<AttachModel id="CargoDoors"/>
+		</LOD>
+		<LOD minSize="43" ModelFile="TFS_Airbus_A380_EA_LOD1.gltf">
+			<AttachModel id="CargoDoors"/>
+		</LOD>
+		<LOD minSize="37" ModelFile="TFS_Airbus_A380_EA_LOD2.gltf">
+			<AttachModel id="CargoDoors"/>
+		</LOD>
+		<LOD minSize="28" ModelFile="TFS_Airbus_A380_EA_LOD3.gltf">
+			<AttachModel id="CargoDoors"/>
+		</LOD>
+		<LOD minSize="3" ModelFile="TFS_Airbus_A380_EA_LOD4.gltf"/>
+		<LOD minSize="0.5" ModelFile="TFS_Airbus_A380_EA_LOD5.gltf"/>
+	</LODS>
+	<ModelAttachments>
+		<ModelAttachment id="CargoDoors">
+			<Model>TFS_Airbus_A380_cargo.xml</Model>
+		</ModelAttachment>
+	</ModelAttachments>
+
+	<Behaviors>
+		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\TFS_Airbus_A380.xml"/>
+	
+		<Component ID="Engine_Visibility">
+			<UseTemplate Name="TFS_Airbus_A380_EA_Engine_Visibility"/>
+		</Component>
+
+	</Behaviors>
+
+</ModelInfo>

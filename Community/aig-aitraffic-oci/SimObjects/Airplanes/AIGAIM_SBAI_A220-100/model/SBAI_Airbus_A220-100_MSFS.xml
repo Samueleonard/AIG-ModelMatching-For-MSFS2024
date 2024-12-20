@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="29" ModelFile="SBAI_Airbus_A220-100_MSFS_LOD0.gltf"/>
+		<LOD minSize="28" ModelFile="SBAI_Airbus_A220-100_MSFS_LOD1.gltf"/>
+		<LOD minSize="27" ModelFile="SBAI_Airbus_A220-100_MSFS_LOD2.gltf"/>
+		<LOD minSize="22" ModelFile="SBAI_Airbus_A220-100_MSFS_LOD3.gltf"/>
+		<LOD minSize="3" ModelFile="SBAI_Airbus_A220-100_MSFS_LOD4.gltf"/>
+		<LOD minSize="0.5" ModelFile="SBAI_Airbus_A220-100_MSFS_LOD5.gltf"/>
+	</LODS>
+
+	<Behaviors>
+		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\SBAI_Airbus_A220.xml"/>
+	</Behaviors>
+
+</ModelInfo>

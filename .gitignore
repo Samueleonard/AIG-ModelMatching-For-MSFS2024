@@ -12,3 +12,5 @@ Community.7z
 oci_soundinfo.xml
 texture.cfg
 oci.xml
+*.aigfp
+fpdatabase.xml

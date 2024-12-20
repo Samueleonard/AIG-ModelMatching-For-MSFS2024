@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="40" ModelFile="TFS_Airbus_A300-600_PW_MSFS_LOD0.gltf">
+			<AttachModel id="CargoDoors"/>
+		</LOD>
+		<LOD minSize="38" ModelFile="TFS_Airbus_A300-600_PW_MSFS_LOD1.gltf">
+			<AttachModel id="CargoDoors"/>
+		</LOD>
+		<LOD minSize="36" ModelFile="TFS_Airbus_A300-600_PW_MSFS_LOD2.gltf"/>
+		<LOD minSize="34" ModelFile="TFS_Airbus_A300-600_PW_MSFS_LOD3.gltf"/>
+		<LOD minSize="26" ModelFile="TFS_Airbus_A300-600_PW_MSFS_LOD4.gltf"/>
+		<LOD minSize="22" ModelFile="TFS_Airbus_A300-600_PW_MSFS_LOD5.gltf"/>
+		<LOD minSize="19" ModelFile="TFS_Airbus_A300-600_PW_MSFS_LOD6.gltf"/>
+		<LOD minSize="3" ModelFile="TFS_Airbus_A300-600_PW_MSFS_LOD7.gltf"/>
+		<LOD minSize="0.5" ModelFile="TFS_Airbus_A300-600_PW_MSFS_LOD8.gltf"/>
+	</LODS>
+	<ModelAttachments>
+		<ModelAttachment id="CargoDoors">
+			<Model>TFS_Airbus_A300-600F_cargo.xml</Model>
+		</ModelAttachment>
+	</ModelAttachments>
+
+	<Behaviors>
+		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\TFS_Airbus_A300.xml"/>
+	</Behaviors>
+
+</ModelInfo>
