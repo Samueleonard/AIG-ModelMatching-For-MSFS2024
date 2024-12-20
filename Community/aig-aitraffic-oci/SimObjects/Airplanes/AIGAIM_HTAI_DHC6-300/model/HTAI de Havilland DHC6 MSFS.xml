@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="15" ModelFile="HTAI de Havilland DHC6 MSFS_LOD0.gltf"/>
+		<LOD minSize="11" ModelFile="HTAI de Havilland DHC6 MSFS_LOD1.gltf"/>
+		<LOD minSize="7" ModelFile="HTAI de Havilland DHC6 MSFS_LOD2.gltf"/>
+		<LOD minSize="3" ModelFile="HTAI de Havilland DHC6 MSFS_LOD3.gltf"/>
+		<LOD minSize="0.5" ModelFile="HTAI de Havilland DHC6 MSFS_LOD4.gltf"/>
+	</LODS>
+
+	<Behaviors>
+		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\HTAI_deHavilland_DHC6.xml"/>
+	</Behaviors>
+
+</ModelInfo>

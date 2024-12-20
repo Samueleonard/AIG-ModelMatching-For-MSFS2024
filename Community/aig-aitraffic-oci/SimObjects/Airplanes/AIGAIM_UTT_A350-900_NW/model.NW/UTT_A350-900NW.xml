@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="53" ModelFile="UTT_A350-900NW_LOD0.gltf"/>
+		<LOD minSize="30" ModelFile="UTT_A350-900NW_LOD1.gltf"/>
+		<LOD minSize="3" ModelFile="UTT_A350-900NW_LOD2.gltf"/>
+		<LOD minSize="0.5" ModelFile="UTT_A350-900NW_LOD3.gltf"/>
+	</LODS>
+
+	<Behaviors>
+		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\UTT_Airbus_A350.xml"/>
+
+		<Component ID="Fuselage_DimCabin">
+			<UseTemplate Name="AIG_Fuselage_DimCabin">
+				<NODE_ID>A359</NODE_ID>
+				<TIME_START>26100</TIME_START>
+				<TIME_END>80100</TIME_END>
+			</UseTemplate>
+		</Component>
+
+	</Behaviors>
+	
+</ModelInfo>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="35" ModelFile="AIA_MD8x_Cone_MSFS_LOD0.gltf"/>
+		<LOD minSize="32" ModelFile="AIA_MD8x_Cone_MSFS_LOD1.gltf"/>
+		<LOD minSize="29" ModelFile="AIA_MD8x_Cone_MSFS_LOD2.gltf"/>
+		<LOD minSize="26" ModelFile="AIA_MD8x_Cone_MSFS_LOD3.gltf"/>
+		<LOD minSize="23" ModelFile="AIA_MD8x_Cone_MSFS_LOD4.gltf"/>
+		<LOD minSize="19" ModelFile="AIA_MD8x_Cone_MSFS_LOD5.gltf"/>
+		<LOD minSize="3" ModelFile="AIA_MD8x_Cone_MSFS_LOD6.gltf"/>
+		<LOD minSize="0.5" ModelFile="AIA_MD8x_Cone_MSFS_LOD7.gltf"/>
+	</LODS>
+
+	<Behaviors>
+		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\AIA_McDonnellDouglas_MD8X.xml"/>
+	</Behaviors>
+	
+</ModelInfo>

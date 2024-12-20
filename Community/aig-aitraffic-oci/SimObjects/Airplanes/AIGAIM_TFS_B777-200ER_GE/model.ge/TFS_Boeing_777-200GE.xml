@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="49" ModelFile="TFS_B772GE_LOD0.gltf">
+			<AttachModel id="CargoDoors"/>
+		</LOD>
+		<LOD minSize="40" ModelFile="TFS_B772GE_LOD1.gltf">
+			<AttachModel id="CargoDoors"/>
+		</LOD>
+		<LOD minSize="37" ModelFile="TFS_B772GE_LOD2.gltf"/>
+		<LOD minSize="35" ModelFile="TFS_B772GE_LOD3.gltf"/>
+		<LOD minSize="29" ModelFile="TFS_B772GE_LOD4.gltf"/>
+		<LOD minSize="16" ModelFile="TFS_B772GE_LOD5.gltf"/>
+		<LOD minSize="12" ModelFile="TFS_B772GE_LOD6.gltf"/>
+		<LOD minSize="3" ModelFile="TFS_B772GE_LOD7.gltf"/>
+		<LOD minSize="0.5" ModelFile="TFS_B772GE_LOD8.gltf"/>
+	</LODS>
+	<ModelAttachments>
+		<ModelAttachment id="CargoDoors">
+			<Model>TFS_B772_cargo.xml</Model>
+		</ModelAttachment>
+	</ModelAttachments>
+
+	<Behaviors>
+		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\TFS_Boeing_777.xml"/>
+
+		<Component ID="Engine_Visibility">
+			<UseTemplate Name="AIG_Boeing_777_GE_Engine_Visibility"/>
+		</Component>
+
+	</Behaviors>
+
+</ModelInfo>

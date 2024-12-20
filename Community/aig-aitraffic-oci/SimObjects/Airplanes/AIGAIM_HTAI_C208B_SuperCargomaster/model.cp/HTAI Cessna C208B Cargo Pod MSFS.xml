@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="17" ModelFile="HTAI Cessna C208B Cargo Pod MSFS_LOD0.gltf"/>
+		<LOD minSize="14" ModelFile="HTAI Cessna C208B Cargo Pod MSFS_LOD1.gltf"/>
+		<LOD minSize="11" ModelFile="HTAI Cessna C208B Cargo Pod MSFS_LOD2.gltf"/>
+		<LOD minSize="4" ModelFile="HTAI Cessna C208B Cargo Pod MSFS_LOD3.gltf"/>
+		<LOD minSize="1" ModelFile="HTAI Cessna C208B Cargo Pod MSFS_LOD4.gltf"/>
+		<LOD minSize="0.5" ModelFile="HTAI Cessna C208B Cargo Pod MSFS_LOD5.gltf"/>
+	</LODS>
+
+	<Behaviors>
+		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\HTAI_Cessna_208.xml"/>
+	</Behaviors>
+
+</ModelInfo>

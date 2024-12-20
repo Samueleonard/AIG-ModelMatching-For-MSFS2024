@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="26" ModelFile="JBAI Challenger 601 Standard Tail MSFS_LOD0.gltf"/>
+		<LOD minSize="25" ModelFile="JBAI Challenger 601 Standard Tail MSFS_LOD1.gltf"/>
+		<LOD minSize="24" ModelFile="JBAI Challenger 601 Standard Tail MSFS_LOD2.gltf"/>
+		<LOD minSize="12" ModelFile="JBAI Challenger 601 Standard Tail MSFS_LOD3.gltf"/>
+		<LOD minSize="11" ModelFile="JBAI Challenger 601 Standard Tail MSFS_LOD4.gltf"/>
+		<LOD minSize="10" ModelFile="JBAI Challenger 601 Standard Tail MSFS_LOD5.gltf"/>
+		<LOD minSize="3" ModelFile="JBAI Challenger 601 Standard Tail MSFS_LOD6.gltf"/>
+		<LOD minSize="0.5" ModelFile="JBAI Challenger 601 Standard Tail MSFS_LOD7.gltf"/>
+	</LODS>
+
+	<Behaviors>
+		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\JBAI_Challenger_600.xml"/>
+	</Behaviors>
+
+</ModelInfo>

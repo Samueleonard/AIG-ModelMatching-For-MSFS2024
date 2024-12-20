@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="21" ModelFile="DWAI_Short_SD3-60_MSFS_LOD0.gltf"/>
+		<LOD minSize="20" ModelFile="DWAI_Short_SD3-60_MSFS_LOD1.gltf"/>
+		<LOD minSize="15" ModelFile="DWAI_Short_SD3-60_MSFS_LOD2.gltf"/>
+		<LOD minSize="12" ModelFile="DWAI_Short_SD3-60_MSFS_LOD3.gltf"/>
+		<LOD minSize="7" ModelFile="DWAI_Short_SD3-60_MSFS_LOD4.gltf"/>
+		<LOD minSize="0.5" ModelFile="DWAI_Short_SD3-60_MSFS_LOD5.gltf"/>
+	</LODS>
+
+	<Behaviors>
+		<Include ModelBehaviorFile="AIG\AircraftBases\DWAI_Aircraft.xml"/>
+		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\Lights.xml"/>
+		
+		<Component ID="DWAI_Short_SD3_Templates">
+			<UseTemplate Name="DWAI_Short_SD3_Common"/>
+		</Component>
+			
+	</Behaviors>
+
+</ModelInfo>

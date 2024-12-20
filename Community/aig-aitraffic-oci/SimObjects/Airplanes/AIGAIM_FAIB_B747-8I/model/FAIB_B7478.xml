@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="50" ModelFile="FAIB_B7478_LOD0.gltf"/>
+		<LOD minSize="47" ModelFile="FAIB_B7478_LOD1.gltf"/>
+		<LOD minSize="41" ModelFile="FAIB_B7478_LOD2.gltf"/>
+		<LOD minSize="27" ModelFile="FAIB_B7478_LOD3.gltf"/>
+		<LOD minSize="3" ModelFile="FAIB_B7478_LOD4.gltf"/>
+		<LOD minSize="0.5" ModelFile="FAIB_B7478_LOD5.gltf"/>
+	</LODS>
+
+	<Behaviors>
+		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\FAIB_Boeing_747.xml"/>
+	
+		<Component ID="FAIB_Boeing_747_Templates">
+			<UseTemplate Name="FAIB_B748_FlapsSlats"/>
+			<UseTemplate Name="FAIB_B748_Parts_Visibility"/>
+		</Component>
+
+	</Behaviors>
+
+</ModelInfo>

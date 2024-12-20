@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="35" ModelFile="FAIB_B7375N_LOD0.gltf"/>
+		<LOD minSize="30" ModelFile="FAIB_B7375N_LOD1.gltf"/>
+		<LOD minSize="23" ModelFile="FAIB_B7375N_LOD2.gltf"/>
+		<LOD minSize="3" ModelFile="FAIB_B7375N_LOD3.gltf"/>
+		<LOD minSize="0.5" ModelFile="FAIB_B7375N_LOD4.gltf"/>
+	</LODS>
+
+	<Behaviors>
+		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\FAIB_Boeing_737.xml"/>
+
+		<Component ID="FAIB_Boeing_737-500N_Templates">
+			<UseTemplate Name="FAIB_Boeing_737CL_FlapsSlats"/>
+			<UseTemplate Name="FAIB_Boeing_737-500N_Parts_Visibility"/>
+		</Component>
+
+	  </Behaviors>
+
+</ModelInfo>

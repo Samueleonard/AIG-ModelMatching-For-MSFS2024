@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="20" ModelFile="RFSL_Bombardier_CRJ-200F_MSFS_LOD0.gltf"/>
+		<LOD minSize="10" ModelFile="RFSL_Bombardier_CRJ-200F_MSFS_LOD0.gltf"/>
+		<LOD minSize="1" ModelFile="RFSL_Bombardier_CRJ-200F_MSFS_LOD1.gltf"/>
+		<LOD minSize="0.5" ModelFile="RFSL_Bombardier_CRJ-200F_MSFS_LOD1.gltf"/>
+	</LODS>
+
+	<Behaviors>
+		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\RFSL_Bombardier_CRJ.xml"/>
+	</Behaviors>
+
+</ModelInfo>

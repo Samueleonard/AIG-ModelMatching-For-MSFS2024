@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="41" ModelFile="MRAI_A300-600-Beluga_MSFS_LOD0.gltf"/>
+		<LOD minSize="3" ModelFile="MRAI_A300-600-Beluga_MSFS_LOD1.gltf"/>
+		<LOD minSize="0.5" ModelFile="MRAI_A300-600-Beluga_MSFS_LOD2.gltf"/>
+	</LODS>
+
+	<Behaviors>
+		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\MRAI_Airbus_A306ST.xml"/>
+	</Behaviors>
+
+</ModelInfo>

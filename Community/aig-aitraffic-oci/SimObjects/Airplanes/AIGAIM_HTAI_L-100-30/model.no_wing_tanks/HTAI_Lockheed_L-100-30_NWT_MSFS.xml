@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="30" ModelFile="HTAI_Lockheed_L-100-30_NWT_MSFS_LOD0.gltf"/>
+		<LOD minSize="28" ModelFile="HTAI_Lockheed_L-100-30_NWT_MSFS_LOD1.gltf"/>
+		<LOD minSize="26" ModelFile="HTAI_Lockheed_L-100-30_NWT_MSFS_LOD2.gltf"/>
+		<LOD minSize="25" ModelFile="HTAI_Lockheed_L-100-30_NWT_MSFS_LOD3.gltf"/>
+		<LOD minSize="24" ModelFile="HTAI_Lockheed_L-100-30_NWT_MSFS_LOD4.gltf"/>
+		<LOD minSize="23" ModelFile="HTAI_Lockheed_L-100-30_NWT_MSFS_LOD5.gltf"/>
+		<LOD minSize="22" ModelFile="HTAI_Lockheed_L-100-30_NWT_MSFS_LOD6.gltf"/>
+		<LOD minSize="19" ModelFile="HTAI_Lockheed_L-100-30_NWT_MSFS_LOD7.gltf"/>
+		<LOD minSize="3" ModelFile="HTAI_Lockheed_L-100-30_NWT_MSFS_LOD8.gltf"/>
+		<LOD minSize="0.5" ModelFile="HTAI_Lockheed_L-100-30_NWT_MSFS_LOD9.gltf"/>
+	</LODS>
+
+	<Behaviors>
+		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\HTAI_Lockheed_L100.xml"/>
+	</Behaviors>
+
+</ModelInfo>

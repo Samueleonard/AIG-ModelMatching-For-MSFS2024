@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="37" ModelFile="AIA_EMB190_MSFS_LOD0.gltf"/>
+		<LOD minSize="34" ModelFile="AIA_EMB190_MSFS_LOD1.gltf"/>
+		<LOD minSize="31" ModelFile="AIA_EMB190_MSFS_LOD2.gltf"/>
+		<LOD minSize="28" ModelFile="AIA_EMB190_MSFS_LOD3.gltf"/>
+		<LOD minSize="26" ModelFile="AIA_EMB190_MSFS_LOD4.gltf"/>
+		<LOD minSize="22" ModelFile="AIA_EMB190_MSFS_LOD5.gltf"/>
+		<LOD minSize="8" ModelFile="AIA_EMB190_MSFS_LOD6.gltf"/>
+		<LOD minSize="3" ModelFile="AIA_EMB190_MSFS_LOD7.gltf"/>
+		<LOD minSize="0.5" ModelFile="AIA_EMB190_MSFS_LOD8.gltf"/>
+	</LODS>
+	
+	<Behaviors>
+		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\AIA_Embraer_EJet.xml"/>
+	</Behaviors>
+
+</ModelInfo>

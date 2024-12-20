@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="35" ModelFile="FAIB_B7373L_LOD0.gltf"/>
+		<LOD minSize="31" ModelFile="FAIB_B7373L_LOD1.gltf"/>
+		<LOD minSize="23" ModelFile="FAIB_B7373L_LOD2.gltf"/>
+		<LOD minSize="3" ModelFile="FAIB_B7373L_LOD3.gltf"/>
+		<LOD minSize="0.5" ModelFile="FAIB_B7373L_LOD4.gltf"/>
+	</LODS>
+
+	<Behaviors>
+		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\FAIB_Boeing_737.xml"/>
+
+		<Component ID="FAIB_Boeing_737-300L_Templates">
+			<UseTemplate Name="FAIB_Boeing_737CL_FlapsSlats"/>
+			<UseTemplate Name="FAIB_Boeing_737-300L_Parts_Visibility"/>
+		</Component>
+
+	  </Behaviors>
+
+</ModelInfo>
