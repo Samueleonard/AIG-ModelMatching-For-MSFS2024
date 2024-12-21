@@ -4,7 +4,7 @@
 
 This package provides the latest version of the [AlphaIndiaGroup](https://www.alpha-india.net) (AIG) AI traffic models for **MSFS 2024** in a single, easy-to-use download. It reduces the need to use the clunky and time-consuming installer from AIG, for a fast and simple setup.
 This pack is designed for use for VATSIM and not for the offline traffic features (more infomation below)
-Backwards compatibility to MSFS 2020 is not tested and no support will be given.
+**THIS PACKAGE IS FOR MSFS2024 ONLY AND DOES NOT WORK IN MSFS2020**
 
 ## Installation Instructions
 
