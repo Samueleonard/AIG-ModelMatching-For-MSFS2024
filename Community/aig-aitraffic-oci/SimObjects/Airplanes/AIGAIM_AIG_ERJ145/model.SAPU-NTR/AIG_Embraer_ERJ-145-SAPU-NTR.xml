@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="32" ModelFile="AIG_Embraer_ERJ-145-SAPU-NTR_LOD0.gltf"/>
+		<LOD minSize="20" ModelFile="AIG_Embraer_ERJ-145-NTR_LOD1.gltf"/>
+		<LOD minSize="3" ModelFile="AIG_Embraer_ERJ-145-NTR_LOD2.gltf"/>
+		<LOD minSize="0.5" ModelFile="AIG_Embraer_ERJ-145-NTR_LOD3.gltf"/>
+	</LODS>
+
+	<Behaviors>
+		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\AIG_Embraer_ERJ.xml"/>
+	</Behaviors>
+
+</ModelInfo>

@@ -6,18 +6,20 @@ from pathlib import Path
 github_folder = Path("C:/Users/samue/Documents/GitHub/AIG-ModelMatching-For-MSFS2024")
 addon_folder = Path("F:/Flight Sim Addons/FS2024 Native/AI Traffic")
 move_folders = [
-    "aig-aitraffic-oci/Sound",
-    "aig-aitraffic-oci/Traffic Files",
-    "aig-aitraffic-oci/layout.json", 
-    "aig-aitraffic-oci/manifest.json", 
     "aig-aitraffic-effects", 
     "aig-aitraffic-modelbehavior",
+    "aig-aitraffic-oci/Sound",
+    "aig-aitraffic-oci/Texture",
+    "aig-aitraffic-oci/Traffic Files",
     "aig-aitraffic-oci/aig.vmr",
+    "aig-aitraffic-oci/layout.json", 
+    "aig-aitraffic-oci/manifest.json", 
     "aig-aitraffic-oci/SimObjects",
 ]
 github_community_folder = github_folder / "Community"
 
 def clear_github_folder():
+    print("\n" + "="*40)
     print(f'Checking if {github_community_folder} exists...')
 
     if github_community_folder.exists():
@@ -48,6 +50,7 @@ def move_files():
         src = src_folder / item
         dst = dst_folder / item
         if src.exists():
+            print(f'Moving {src} to {dst}')
             if src.is_dir():
                 shutil.copytree(src, dst, dirs_exist_ok=True)
             else:
@@ -57,7 +60,7 @@ def move_files():
         else:
             print(f'{src} does not exist. Skipping...')
     print("Done moving files.")
-
+    print("\n" + "="*40)
     zip_choice = input("Do you want to zip the Community folder? (yes/no): ").strip().lower()
     if zip_choice.startswith("y"):
         zip_community_folder()
@@ -69,6 +72,7 @@ def move_files():
 
 
 def zip_community_folder():
+    print("\n" + "="*40)
     zip_path = os.path.join(github_folder, "Community.zip")
     print(f'Creating zip file: {zip_path}')
     subprocess.run(["nanazip", "a", zip_path, github_community_folder])

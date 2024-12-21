@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModelMatchRuleSet>
     <ModelMatchRule CallsignPrefix="SHT" TypeCode="A320" ModelName="AIGAIM_British Airways Airbus A320-200//AIGAIM_British Airways Airbus A320-200SL//AIGAIM_British Airways Airbus A320-200SL - Oneworld" />
+    <ModelMatchRule CallsignPrefix="XMS" TypeCode="A320" ModelName="AIGAIM_British Airways Airbus A320-200//AIGAIM_British Airways Airbus A320-200SL//AIGAIM_British Airways Airbus A320-200SL - Oneworld" />
 </ModelMatchRuleSet>

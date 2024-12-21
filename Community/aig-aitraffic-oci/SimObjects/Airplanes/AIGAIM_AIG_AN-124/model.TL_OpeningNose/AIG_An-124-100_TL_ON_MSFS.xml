@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="62" ModelFile="AIG_An-124-100_TL_ON_MSFS_LOD0.gltf"/>
+		<LOD minSize="60" ModelFile="AIG_An-124-100_TL_ON_MSFS_LOD1.gltf"/>
+		<LOD minSize="58" ModelFile="AIG_An-124-100_TL_ON_MSFS_LOD2.gltf"/>
+		<LOD minSize="57" ModelFile="AIG_An-124-100_TL_ON_MSFS_LOD3.gltf"/>
+		<LOD minSize="50" ModelFile="AIG_An-124-100_TL_ON_MSFS_LOD4.gltf"/>
+		<LOD minSize="40" ModelFile="AIG_An-124-100_TL_ON_MSFS_LOD5.gltf"/>
+		<LOD minSize="30" ModelFile="AIG_An-124-100_TL_ON_MSFS_LOD6.gltf"/>
+		<LOD minSize="20" ModelFile="AIG_An-124-100_TL_ON_MSFS_LOD7.gltf"/>
+		<LOD minSize="10" ModelFile="AIG_An-124-100_TL_ON_MSFS_LOD8.gltf"/>
+		<LOD minSize="3" ModelFile="AIG_An-124-100_TL_ON_MSFS_LOD9.gltf"/>
+		<LOD minSize="0.5" ModelFile="AIG_An-124-100_TL_ON_MSFS_LOD10.gltf"/>
+	</LODS>
+
+	<Behaviors>
+		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\AIG_Antonov_An124.xml"/>
+	</Behaviors>
+
+</ModelInfo>

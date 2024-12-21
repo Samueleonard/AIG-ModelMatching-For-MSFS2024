@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="35" ModelFile="FAIB_A320_CFM_LOD0.gltf"/>
+		<LOD minSize="33" ModelFile="FAIB_A320_CFM_LOD1.gltf"/>
+		<LOD minSize="25" ModelFile="FAIB_A320_CFM_LOD2.gltf"/>
+		<LOD minSize="3" ModelFile="FAIB_A320_CFM_LOD3.gltf"/>
+		<LOD minSize="0.5" ModelFile="FAIB_A320_CFM_LOD4.gltf"/>
+	</LODS>
+
+	<Behaviors>
+		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\FAIB_Airbus_A320.xml"/>
+
+		<Component ID="FAIB_A320_Templates">
+			<UseTemplate Name="FAIB_A320_Parts_Visibility"/>
+		</Component>
+
+	</Behaviors>
+
+</ModelInfo>

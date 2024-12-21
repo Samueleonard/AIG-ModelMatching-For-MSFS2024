@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="56" ModelFile="AIG_Airbus_A340-200_LOD0.gltf"/>
+		<LOD minSize="31" ModelFile="AIG_Airbus_A340-200_LOD1.gltf"/>
+		<LOD minSize="3" ModelFile="AIG_Airbus_A340-200_LOD2.gltf"/>
+		<LOD minSize="0.5" ModelFile="AIG_Airbus_A340-200_LOD3.gltf"/>
+	</LODS>
+
+	<Behaviors>
+		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\AIG_Airbus_A340.xml"/>
+	
+		<Component ID="Cargo_Door">
+			<UseTemplate Name="AIG_Airbus_A340_Cargo_Door"/>
+		</Component>
+
+		<Component ID="Fuselage_DimCabin">
+			<UseTemplate Name="AIG_Fuselage_DimCabin">
+				<NODE_ID>fuselage-200</NODE_ID>
+				<TIME_START>26100</TIME_START>
+				<TIME_END>80100</TIME_END>
+			</UseTemplate>
+		</Component>
+
+	</Behaviors>
+	
+</ModelInfo>
