@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="28" ModelFile="HTAI BAe HS-125-700 MSFS_LOD0.gltf"/>
+		<LOD minSize="24" ModelFile="HTAI BAe HS-125-700 MSFS_LOD1.gltf"/>
+		<LOD minSize="17" ModelFile="HTAI BAe HS-125-700 MSFS_LOD2.gltf"/>
+		<LOD minSize="14" ModelFile="HTAI BAe HS-125-700 MSFS_LOD3.gltf"/>
+		<LOD minSize="13" ModelFile="HTAI BAe HS-125-700 MSFS_LOD4.gltf"/>
+		<LOD minSize="12" ModelFile="HTAI BAe HS-125-700 MSFS_LOD5.gltf"/>
+		<LOD minSize="11" ModelFile="HTAI BAe HS-125-700 MSFS_LOD6.gltf"/>
+		<LOD minSize="3" ModelFile="HTAI BAe HS-125-700 MSFS_LOD7.gltf"/>
+		<LOD minSize="0.5" ModelFile="HTAI BAe HS-125-700 MSFS_LOD8.gltf"/>
+	</LODS>
+
+	<Behaviors>
+		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\HTAI_BritishAerospace125.xml"/>
+	</Behaviors>
+
+</ModelInfo>
