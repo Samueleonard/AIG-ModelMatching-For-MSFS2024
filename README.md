@@ -1,71 +1,110 @@
-# AIG-Model Matching-For-MSFS 2024: 
+# AIG Model Matching for MSFS 2024
 
 ## Introduction
 
-This package provides the latest version of the [AlphaIndiaGroup](https://www.alpha-india.net) (AIG) AI traffic models for **MSFS 2024** in a single, easy-to-use download. It reduces the need to use the clunky and time-consuming installer from AIG, for a fast and simple setup.
-This pack is designed for use for VATSIM and not for the offline traffic features (more infomation below)
-**THIS PACKAGE IS FOR MSFS2024 ONLY AND DOES NOT WORK IN MSFS2020**
+This package provides the latest version of the [Alpha India Group](https://www.alpha-india.net) (AIG) AI traffic models for MSFS 2024. It makes installation quick and easy by removing the need for the AIG installer.
+
+This pack is for use with **VATSIM** but may work with offline traffic (more details below). Only real-world airlines and aircraft are included—no virtual airlines or unrealistic liveries.
+
+> **Note:** This package works only with MSFS 2024 and **will not** work with MSFS 2020, use [this pack](https://github.com/Samueleonard/AIG-ModelMatching-For-MSFS2020) instead.
+
+---
 
 ## Installation Instructions
 
-**Important**: **Only** use the Google Drive download link provided below. **DO NOT** download from the GitHub repository, as this will **not** work.
+### 1. Download the Package
 
-### 1. **Download**
-   Download the latest AIG pack from the provided link:
-   - [Google Drive N/A]()  
-     The file is a large zip archive (~XGB zipped download, ~XGB unzipped).
+Download the AIG pack using the link below:
 
-### 2. **Remove Previous AIG Installations**
-   Before starting the installation, ensure that any previous AIG installs are removed from your **community folder**. This reduces the chances of conflicts or installation errors.
+- [Google Drive N/A]()
 
-### 3. **Extract the Files**
-   Use an extraction tool like **7zip** or **WinRAR** to extract **all included folders** into your **MSFS community folder**.
-   - [Download 7zip](https://www.7-zip.org/)
-   - [Download WinRAR](https://www.win-rar.com/)
+The file is a large zip archive (~XGB compressed, ~XGB uncompressed).
 
-### 4. **Using AIG with VATSIM**
-   If you are using **VATSIM** and want to use model matching, you will need a VMR file to link the models to their respective airlines. You will need to download one from a 3rd party, I recommend [this one](https://flightsim.to/file/23365/full-vatsim-aig-beta-model-matching) 
-   You can then select it through the **'Custom Rules'** menu in vPilot settings. 
-   ![image](https://github.com/user-attachments/assets/fad52638-a512-4d89-9ece-5569a06fedad)
+> **Important:** Do not download any GitHub files, as this will not work.
+
+### 2. Remove Previous AIG Installations
+
+Delete any previous AIG files from your Community folder to avoid conflicts.
+
+### 3. Extract the Files
+
+Use an extraction tool (e.g., 7zip or WinRAR) to unzip the downloaded file into your MSFS Community folder.
+
+- [Download 7zip](https://www.7-zip.org/)
+- [Download WinRAR](https://www.win-rar.com/)
+
+### 4. Using AIG with VATSIM
+
+To use AIG with VATSIM, you need a VMR file to match the models to airlines:
+
+- A basic VMR file is included and will be updated in the future.
+- For better coverage, use [this third-party file](https://flightsim.to/file/23365/full-vatsim-aig-beta-model-matching).
+
+To set it up:
+Open **vPilot settings** > **Model Matching (FS2024)** > **Custom Rules** > **Add Custom Rule Sets**.
 
 ---
 
 ## Manual Updates
 
-As this pack may not be updated frequently, you may need to manually update your installation using the **AIG Manager Tool**. The tool is available for download [here](https://www.alpha-india.net/software/)
+You may need to update your setup manually using the **AIG Manager Tool**:
 
-Please note that **no support is provided** for manual updates, and full compatibility cannot be guaranteed.
+- Download it [here](https://www.alpha-india.net/software/).
+
+> **Note:** Manual updates are not officially supported, and compatibility is not guaranteed.
 
 ---
 
-## Usage with FSLTL (FSLiveTrafficLiveries)
+## Using FSLTL (FS Live Traffic Liveries)
 
 ### What is FSLTL?
 
-**FSLTL**  is a similar project to AIG, offering a model matching solution and live traffic injection using real-time data from **Flightradar24**. FSLTL is a separate project and is **NOT INCLUDED** in this download.
+FSLTL is another model-matching tool that provides models and liveries, and also injects live traffic data from Flightradar24. It is not included in this package.
 
 ### Can I Use FSLTL and AIG Together?
 
-Yes, you can use both **FSLTL** and **AIG** together. To do so, you will need to place the VMR files for both FSLTL and AIG into vPilot, ensuring that **AIG’s** VMR file is at the **top** so it has priority for model matching.
+Yes, you can use both together:
 
-- FSLTL is available for free through the [FlyByWire Installer](https://api.flybywiresim.com/installer).
+1. Add the VMR files for FSLTL and AIG to vPilot.
+2. Ensure AIG’s VMR file is listed at the top for priority.
 
----
-
-## Usage with Online Networks (VATSIM)
-
-A VMR file is not included in the download. You will need to download one from a 3rd party, i recommend [this one](https://flightsim.to/file/23365/full-vatsim-aig-beta-model-matching) by [BritishAvgeek](https://www.youtube.com/@BritishAvgeek). 
-Download and select it through the vPilot settings / Model Matching (FS2024) / Custom Rules / Add Custom Rule Sets
+Download FSLTL via the [FlyByWire Installer](https://api.flybywiresim.com/installer).
 
 ---
 
-## Usage with Offline Traffic
+## Using AIG on VATSIM
 
-The offline flight plans are included but have **not** been tested. Thus, compatibility is not confirmed and support wil not be given.
+Out of the box, this package covers about 95% of VATSIM traffic.
+To improve coverage, you can use a VMR file.
+
+### Included VMR File
+
+- A custom VMR file is included to handle cases like alternate ICAO codes (e.g., Lufthansa Cityline or British Airways Shuttle). However, it does not account for typos, wrong callsigns, or unrealistic livery/aircraft combinations.
+
+### Third-Party VMR Recommendation
+
+Alternatively, use a third-party VMR file like [this one](https://flightsim.to/file/23365/full-vatsim-aig-beta-model-matching) by [BritishAvgeek](https://www.youtube.com/@BritishAvgeek).
+
+To add it:
+1. Download the file.
+2. Open **vPilot settings** > **Model Matching (FS2024)** > **Custom Rules** > **Add Custom Rule Sets**.
+
+---
+
+## Offline Traffic
+
+Offline flight plans are included but untested. Compatibility is not guaranteed, and no support is provided.
+MSFS 2024 live traffic may also work but is not tested.
 
 ---
 
 ## Payware Models
-AIG has the option to use payware  models in the installer, these **will not** be distributed in this free pack. Any payware models that are purchased by me will be removed from this package before distribution. Payware models will not be uploaded to the final download or to the GitHub repository.
 
-If you choose to use payware model with AIG, you will need to manually update your installation using the [AIG Manager Tool](https://www.alpha-india.net/software/). No support is given for this.
+Payware models are supported by aig but not included in this package. Any purchased payware models have been removed.
+
+### Using Payware Models
+
+To use payware models, manually update your setup with the [AIG Manager Tool](https://www.alpha-india.net/software/).
+
+> **Note:** No support is available here for payware models.
+
