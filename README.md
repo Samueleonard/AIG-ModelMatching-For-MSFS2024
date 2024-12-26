@@ -35,10 +35,12 @@ Use an extraction tool (e.g., 7zip or WinRAR) to unzip the downloaded file into 
 
 ### 4. Using AIG with VATSIM
 
-To use AIG with VATSIM, you need a VMR file to match the models to airlines:
+To use AIG with VATSIM, nothing extra is required other than vpilot, however some edge cases may lead to liveries being missing. To help with this issue, a VMR file is included to match these liveries to airlines:
 
 - A basic VMR file is included and will be updated in the future.
-- For better coverage, use [this third-party file](https://flightsim.to/file/23365/full-vatsim-aig-beta-model-matching).
+- For better coverage, use [this third-party file](https://flightsim.to/file/23365/full-vatsim-aig-beta-model-matching). **IMPORTANT** this file is outdated and may lead to some vpilot error messages, but overall may help improve coverage.
+
+My recommendation is to only use the included VMR file and not a 3rd party one, but it could be useful if you have specific usage requirements for one.
 
 To set it up:
 Open **vPilot settings** > **Model Matching (FS2024)** > **Custom Rules** > **Add Custom Rule Sets**.
@@ -81,9 +83,12 @@ To improve coverage, you can use a VMR file.
 
 - A custom VMR file is included to handle cases like alternate ICAO codes (e.g., Lufthansa Cityline or British Airways Shuttle). However, it does not account for typos, wrong callsigns, or unrealistic livery/aircraft combinations.
 
-### Third-Party VMR Recommendation
+### Third-Party VMRs
 
-Alternatively, use a third-party VMR file like [this one](https://flightsim.to/file/23365/full-vatsim-aig-beta-model-matching) by [BritishAvgeek](https://www.youtube.com/@BritishAvgeek).
+Alternatively, use a third-party VMR file like [this one](https://flightsim.to/file/23365/full-vatsim-aig-beta-model-matching) by [BritishAvgeek](https://www.youtube.com/@BritishAvgeek). **IMPORTANT** this file is outdated and may lead to some vpilot error messages, but overall may help improve coverage.
+
+My recommendation is to only use the included VMR file and not a 3rd party one, but it could be useful if you have specific usage requirements for one.
+
 
 To add it:
 1. Download the file.
