@@ -16,9 +16,9 @@ This pack is for use with **VATSIM** but may work with offline traffic (more det
 
 Download the AIG pack using the link below:
 
-- [Google Drive](https://drive.google.com/file/d/11lMMuE8hn2YnhGw6pMQs3UNfhcKrDs8N/view?usp=sharing)
+- [Google Drive](https://drive.google.com/file/d/1wIFZ_lTj_ZhNc8vfGnRir-x6IjRonljl/view?usp=sharing)
 
-The file is a large zip archive (~74.2GB uncompressed, ~3.3GB compressed).
+The file is a large zip archive (~75.1GB uncompressed, ~3.3GB compressed).
 
 > **Important:** Do not download any GitHub files, as this will not work.
 
