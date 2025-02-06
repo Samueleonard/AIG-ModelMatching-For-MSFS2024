@@ -4,7 +4,7 @@ import subprocess
 from pathlib import Path
 
 github_folder = Path("C:/Users/samue/Documents/GitHub/AIG-ModelMatching-For-MSFS2024")
-addon_folder = Path("F:/Flight Sim Addons/FS2024 Native/AI Traffic")
+addon_folder = Path("F:\MSFS Addons\Addons\Ai Traffic")
 move_folders = [
     "aig-aitraffic-effects", 
     "aig-aitraffic-modelbehavior",
@@ -61,13 +61,13 @@ def move_files():
             print(f'{src} does not exist. Skipping...')
     print("Done moving files.")
     print("\n" + "="*40)
-    zip_choice = input("Do you want to zip the Community folder? (yes/no): ").strip().lower()
-    if zip_choice.startswith("y"):
-        zip_community_folder()
     try:
         subprocess.run(["C:/Users/samue/AppData/Local/GitHubDesktop/GitHubDesktop.exe"], check=True)
     except subprocess.CalledProcessError as e:
         print(f'Failed to open GitHub Desktop. Reason: {e}')
+    zip_choice = input("Do you want to zip the Community folder? (yes/no): ").strip().lower()
+    if zip_choice.startswith("y"):
+        zip_community_folder()
     input("Press Enter after you have pushed changes to GitHub...")
 
 
