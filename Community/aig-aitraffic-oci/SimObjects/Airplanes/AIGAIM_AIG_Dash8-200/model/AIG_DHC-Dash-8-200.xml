@@ -2,13 +2,13 @@
 <ModelInfo>
 
 	<LODS>
-		<LOD minSize="70" ModelFile="AIG_DHC-Dash-8-200_LOD0.gltf">
+		<LOD minSize="37" ModelFile="AIG_DHC-Dash-8-200_LOD0.gltf">
 			<AttachModel id="Antenna"/>
 		</LOD>
-		<LOD minSize="50" ModelFile="AIG_DHC-Dash-8-200_LOD1.gltf">
+		<LOD minSize="33" ModelFile="AIG_DHC-Dash-8-200_LOD1.gltf">
 			<AttachModel id="Antenna"/>
 		</LOD>
-		<LOD minSize="25" ModelFile="AIG_DHC-Dash-8-200_LOD2.gltf">
+		<LOD minSize="20" ModelFile="AIG_DHC-Dash-8-200_LOD2.gltf">
 			<AttachModel id="Antenna"/>
 		</LOD>
 		<LOD minSize="3" ModelFile="AIG_DHC-Dash-8-200_LOD3.gltf"/>
