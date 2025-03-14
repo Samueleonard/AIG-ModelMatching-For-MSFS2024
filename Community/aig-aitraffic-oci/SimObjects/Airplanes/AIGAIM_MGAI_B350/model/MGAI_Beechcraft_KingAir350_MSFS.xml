@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="13" ModelFile="MGAI_Beechcraft_KingAir350_MSFS_LOD0.gltf"/>
+		<LOD minSize="2" ModelFile="MGAI_Beechcraft_KingAir350_MSFS_LOD1.gltf"/>
+		<LOD minSize="0.5" ModelFile="MGAI_Beechcraft_KingAir350_MSFS_LOD2.gltf"/>
+	</LODS>
+
+	<Behaviors>
+		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\MGAI_Beechcraft_KingAir350.xml"/>
+	</Behaviors>
+
+</ModelInfo>
