@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="25" ModelFile="HTAI Beechcraft King Air C90 3Blade20Fin MSFS_LOD0.gltf"/>
+		<LOD minSize="23" ModelFile="HTAI Beechcraft King Air C90 3Blade20Fin MSFS_LOD1.gltf"/>
+		<LOD minSize="19" ModelFile="HTAI Beechcraft King Air C90 3Blade20Fin MSFS_LOD2.gltf"/>
+		<LOD minSize="17" ModelFile="HTAI Beechcraft King Air C90 3Blade20Fin MSFS_LOD3.gltf"/>
+		<LOD minSize="16" ModelFile="HTAI Beechcraft King Air C90 3Blade20Fin MSFS_LOD4.gltf"/>
+		<LOD minSize="15" ModelFile="HTAI Beechcraft King Air C90 3Blade20Fin MSFS_LOD5.gltf"/>
+		<LOD minSize="3" ModelFile="HTAI Beechcraft King Air C90 3Blade20Fin MSFS_LOD6.gltf"/>
+		<LOD minSize="0.5" ModelFile="HTAI Beechcraft King Air C90 3Blade20Fin MSFS_LOD7.gltf"/>
+	</LODS>
+
+	<Behaviors>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\HTAI_Beechcraft_KingAir90.xml"/>
+	</Behaviors>
+
+</ModelInfo>

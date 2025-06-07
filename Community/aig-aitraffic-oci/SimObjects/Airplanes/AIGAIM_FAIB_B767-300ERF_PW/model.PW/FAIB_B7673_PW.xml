@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="38" ModelFile="FAIB_B7673_PW_LOD0.gltf"/>
+		<LOD minSize="36" ModelFile="FAIB_B7673_PW_LOD1.gltf"/>
+		<LOD minSize="31" ModelFile="FAIB_B7673_PW_LOD2.gltf"/>
+		<LOD minSize="23" ModelFile="FAIB_B7673_PW_LOD3.gltf"/>
+		<LOD minSize="3" ModelFile="FAIB_B7673_PW_LOD4.gltf"/>
+		<LOD minSize="0.5" ModelFile="FAIB_B7673_PW_LOD5.gltf"/>
+	</LODS>
+
+	<Behaviors>
+		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\FAIB_Boeing_767.xml"/>
+
+		<Component ID="FAIB_B763_Templates">
+			<UseTemplate Name="FAIB_B763_Parts_Visibility"/>
+		</Component>
+
+	</Behaviors>
+
+</ModelInfo>
