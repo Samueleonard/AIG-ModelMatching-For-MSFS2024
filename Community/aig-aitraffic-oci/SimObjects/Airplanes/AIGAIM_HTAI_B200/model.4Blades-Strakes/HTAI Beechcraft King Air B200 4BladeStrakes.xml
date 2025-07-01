@@ -13,7 +13,7 @@
 	</LODS>
 
 	<Behaviors>
-		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\HTAI_Beechcraft_KingAir200.xml"/>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\HTAI_Beechcraft_KingAir200.xml"/>
 	</Behaviors>
 
 </ModelInfo>
