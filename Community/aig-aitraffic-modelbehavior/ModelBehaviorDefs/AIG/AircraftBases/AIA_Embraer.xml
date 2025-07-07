@@ -3,7 +3,7 @@
 
 <Template Name="AIA_Embraer_EJet_Common">
 
-	<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\Lights.xml"/>
+	<IncludeBase ModelBehaviorFile="AIG\Lights.xml"/>
 
 	<Component ID="Landing_Gear">
 		<UseTemplate Name="AIG_Gear_Center_Template">
@@ -140,7 +140,7 @@
 
 <Template Name="AIA_Embraer_EMB120_Common">
 
-	<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\Lights.xml"/>
+	<IncludeBase ModelBehaviorFile="AIG\Lights.xml"/>
 
 	<Component ID="Landing_Gear">
 		<UseTemplate Name="AIG_Gear_Center_Template">

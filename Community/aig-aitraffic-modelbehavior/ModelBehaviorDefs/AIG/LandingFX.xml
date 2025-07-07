@@ -99,5 +99,24 @@
 			<UseTemplate Name="AIG_SNOW_LANDING_FX"/>
 		</Component>
 	</Template>
+	
+	<Template Name="AIG_FloatplaneFX">
+		<Component ID="FLOAT_FX_Contact2Point1">
+			<Parameters>
+				<FX_CONTACT_POINT_ID>4</FX_CONTACT_POINT_ID>
+				<FX_NODE>float1</FX_NODE>
+			</Parameters>
+			<UseTemplate Name="AIG_WATER_GR_LANDING_FX"/>
+			<UseTemplate Name="AIG_WET_LANDING_FX"/>
+		</Component>
+		<Component ID="FLOAT_FX_Contact2Point2">
+			<Parameters>
+				<FX_CONTACT_POINT_ID>4</FX_CONTACT_POINT_ID>
+				<FX_NODE>float2</FX_NODE>
+			</Parameters>
+			<UseTemplate Name="AIG_WATER_GR_LANDING_FX"/>
+			<UseTemplate Name="AIG_WET_LANDING_FX"/>
+		</Component>
+	</Template>
 
 </ModelBehaviors>

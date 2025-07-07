@@ -105,7 +105,7 @@
 		</Parameters>
 		<Component ID="FX_LANDING_WATER_#FX_NODE#_#FX_CONTACT_POINT_ID#" Node="#FX_NODE#">
 			<UseTemplate Name="ASOBO_GT_FX">
-				<FX_CODE>(A:GEAR WATER DEPTH:#FX_CONTACT_POINT_ID#, Keyframe) 0 &gt; (A:GROUND VELOCITY, knot) 5 &gt; and</FX_CODE>
+				<FX_CODE>(A:GEAR LEFT POSITION, percent) 1 &lt; (A:PLANE ALT ABOVE GROUND MINUS CG, feet) 3 &lt; and (A:GROUND VELOCITY, knot) 5 &gt; and</FX_CODE>
 			</UseTemplate>
 		</Component>
 	</Template>

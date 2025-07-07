@@ -1,6 +1,6 @@
 <ModelBehaviors>
 	<Include ModelBehaviorFile="AIG\Common.xml"/>
-	<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\Lights.xml"/>
+	<IncludeBase ModelBehaviorFile="AIG\Lights.xml"/>
 
 <Template Name="TBAI_Cirrus_Common">
 

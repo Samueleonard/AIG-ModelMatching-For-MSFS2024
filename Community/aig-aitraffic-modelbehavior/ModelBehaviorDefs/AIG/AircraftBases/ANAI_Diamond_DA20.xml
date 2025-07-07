@@ -1,6 +1,6 @@
 <ModelBehaviors>
 	<Include ModelBehaviorFile="AIG\Common.xml"/>
-	<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\Lights.xml"/>
+	<IncludeBase ModelBehaviorFile="AIG\Lights.xml"/>
 	
 	<Component ID="Engines">
 		<UseTemplate Name="AIG_Engine_Base_Template">
