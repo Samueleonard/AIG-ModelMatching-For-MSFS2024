@@ -81,7 +81,7 @@ To improve coverage, you can use a VMR file.
 
 ### Included VMR File
 
-- A custom VMR file is included to handle cases like alternate ICAO codes (e.g., Lufthansa Cityline or British Airways Shuttle). However, it does not account for typos, wrong callsigns, or unrealistic livery/aircraft combinations.
+- A custom VMR file is included to handle cases like alternate ICAO codes (e.g., Lufthansa Cityline or British Airways Shuttle). However, it does not account for typos, wrong callsigns, or unrealistic livery/aircraft combinations from other users.
 
 ### Third-Party VMRs
 
@@ -105,7 +105,7 @@ MSFS 2024 live traffic may also work but is not tested.
 
 ## Payware Models
 
-Payware models are supported by aig but not included in this package. Any purchased payware models have been removed.
+Payware models are supported by AIG but not included in this package. Any purchased payware models have been removed.
 
 ### Using Payware Models
 
