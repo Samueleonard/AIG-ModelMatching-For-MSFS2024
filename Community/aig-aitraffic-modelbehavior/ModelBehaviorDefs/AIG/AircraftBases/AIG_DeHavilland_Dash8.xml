@@ -133,8 +133,14 @@
 
 <Template Name="AIG_DeHavilland_Dash8-100">
 	<Component ID="Spoilers">
-		<UseTemplate Name="AIG_Dash8-100_Spoiler_L"/>
-		<UseTemplate Name="AIG_Dash8-100_Spoiler_R"/>
+		<UseTemplate Name="AIG_Dash8-100-400_Spoiler">
+			<ANIM_NAME>Dash8-100_Spoiler_L</ANIM_NAME>
+			<SIDE>LEFT</SIDE>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Dash8-100-400_Spoiler">
+			<ANIM_NAME>Dash8-100_Spoiler_R</ANIM_NAME>
+			<SIDE>RIGHT</SIDE>
+		</UseTemplate>
 		<UseTemplate Name="AIG_Dash8_Elevator">
 			<ANIM_NAME>elevator</ANIM_NAME>
 		</UseTemplate>
@@ -143,8 +149,14 @@
 
 <Template Name="AIG_DeHavilland_Dash8-200-300">
 	<Component ID="Spoilers">
-		<UseTemplate Name="AIG_Dash8-200-300_Spoiler_L"/>
-		<UseTemplate Name="AIG_Dash8-200-300_Spoiler_R"/>
+		<UseTemplate Name="AIG_Dash8-200-300_Spoiler">
+			<ANIM_NAME>Dash8-200-300_Spoiler_L</ANIM_NAME>
+			<SIDE>LEFT</SIDE>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Dash8-200-300_Spoiler">
+			<ANIM_NAME>Dash8-200-300_Spoiler_R</ANIM_NAME>
+			<SIDE>RIGHT</SIDE>
+		</UseTemplate>
 		<UseTemplate Name="AIG_Dash8_Elevator">
 			<ANIM_NAME>elevator</ANIM_NAME>
 		</UseTemplate>
@@ -153,8 +165,14 @@
 
 <Template Name="AIG_DeHavilland_Dash8-400_Spoilers">
 	<Component ID="Spoilers">
-		<UseTemplate Name="AIG_Dash8-400_Spoiler_L"/>
-		<UseTemplate Name="AIG_Dash8-400_Spoiler_R"/>
+		<UseTemplate Name="AIG_Dash8-100-400_Spoiler">
+			<ANIM_NAME>Dash8-400_Spoiler_L</ANIM_NAME>
+			<SIDE>LEFT</SIDE>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Dash8-100-400_Spoiler">
+			<ANIM_NAME>Dash8-400_Spoiler_R</ANIM_NAME>
+			<SIDE>RIGHT</SIDE>
+		</UseTemplate>
 	</Component>
 </Template>
 

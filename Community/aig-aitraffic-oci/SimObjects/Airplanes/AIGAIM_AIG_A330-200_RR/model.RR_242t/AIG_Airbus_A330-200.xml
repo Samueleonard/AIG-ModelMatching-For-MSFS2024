@@ -18,7 +18,7 @@
 	</ModelAttachments>
 
 	<Behaviors>
-		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\AIG_Airbus_A330.xml"/>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\AIG_Airbus_A330.xml"/>
 
 		<Component ID="AIG_Airbus_A330_Templates">
 			<UseTemplate Name="AIG_Airbus_A330_RR_Engine_Visibility"/>

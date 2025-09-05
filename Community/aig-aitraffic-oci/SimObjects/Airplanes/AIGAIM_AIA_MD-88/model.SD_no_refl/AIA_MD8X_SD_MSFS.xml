@@ -13,7 +13,7 @@
 	</LODS>
 
 	<Behaviors>
-		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\AIA_McDonnellDouglas_MD8X.xml"/>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\AIA_McDonnellDouglas_MD8X.xml"/>
 	</Behaviors>
 
 </ModelInfo>

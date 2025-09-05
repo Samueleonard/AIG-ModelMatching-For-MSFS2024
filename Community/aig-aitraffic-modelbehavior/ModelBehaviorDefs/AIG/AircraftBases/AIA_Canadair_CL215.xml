@@ -99,6 +99,7 @@
 		<UseTemplate Name="AIG_LandingFX">
 			<Medium>True</Medium>
 		</UseTemplate>
+		<UseTemplate Name="AIG_FloatplaneFX"/>
 	</Component>
 
 </ModelBehaviors>

@@ -12,7 +12,7 @@
 	</LODS>
 
 	<Behaviors>
-		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\HTAI_Beechjet.xml"/>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\HTAI_Beechjet.xml"/>
 
 		<Component ID="HTAI_Beechjet_Templates">
 			<UseTemplate Name="HTAI_Beechjet_Reverser"/>

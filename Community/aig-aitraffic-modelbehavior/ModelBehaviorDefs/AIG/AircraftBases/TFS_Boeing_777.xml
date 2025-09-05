@@ -53,15 +53,33 @@
 	</Component>
 	
 	<Component ID="Spoilers">
-		<UseTemplate Name="B777_Spoiler_Inner_L"/>
-		<UseTemplate Name="B777_Spoiler_Inner_R"/>
-		<UseTemplate Name="B777_Spoiler_Out_L4"/>
-		<UseTemplate Name="B777_Spoiler_Out_R4"/>
-		<UseTemplate Name="B777_Spoiler_Out_L2"/>
-		<UseTemplate Name="B777_Spoiler_Out_R2"/>
-		<UseTemplate Name="B777_Spoiler_Out_L1-3"/>
-		<UseTemplate Name="B777_Spoiler_Out_R1-3"/>
-		<UseTemplate Name="B777_Spoiler_Out_LR5"/>
+		<UseTemplate Name="B777_Spoiler_Inner">
+			<ANIM_NAME>TFS_777_Spoiler_Inner_L</ANIM_NAME>
+		</UseTemplate>
+		<UseTemplate Name="B777_Spoiler_Inner">
+			<ANIM_NAME>TFS_777_Spoiler_Inner_R</ANIM_NAME>
+			<SIDE>RIGHT</SIDE>
+		</UseTemplate>
+		<UseTemplate Name="B777_Spoiler_1-3">
+			<ANIM_NAME>TFS_777_Spoiler_Out_L1-3</ANIM_NAME>
+		</UseTemplate>
+		<UseTemplate Name="B777_Spoiler_1-3">
+			<ANIM_NAME>TFS_777_Spoiler_Out_R1-3</ANIM_NAME>
+		</UseTemplate>
+		<UseTemplate Name="B777_Spoiler_2">
+			<ANIM_NAME>TFS_777_Spoiler_Out_L2</ANIM_NAME>
+		</UseTemplate>
+		<UseTemplate Name="B777_Spoiler_2">
+			<ANIM_NAME>TFS_777_Spoiler_Out_R2</ANIM_NAME>
+			<SIDE>RIGHT</SIDE>
+		</UseTemplate>
+		<UseTemplate Name="B777_Spoiler_4">
+			<ANIM_NAME>TFS_777_Spoiler_Out_L4</ANIM_NAME>
+		</UseTemplate>
+		<UseTemplate Name="B777_Spoiler_4">
+			<ANIM_NAME>TFS_777_Spoiler_Out_R4</ANIM_NAME>
+		</UseTemplate>
+		<UseTemplate Name="B777_Spoiler5"/>
 	</Component>
 	
 	<Component ID="Engines">
@@ -80,7 +98,7 @@
 	</Component>
 
 	<Component ID="Flaperons">
-		<UseTemplate Name="B777_flaperon"/>
+		<UseTemplate Name="B777_Flaperon"/>
 	</Component>
 
 	<Component ID="Rudder">

@@ -14,7 +14,7 @@
 	</LODS>
 
 	<Behaviors>
-		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\HTAI_Gulfstream.xml"/>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\HTAI_Gulfstream.xml"/>
 	
 		<Component ID="HTAI_Gulfstream_Templates">
 			<UseTemplate Name="HTAI_Gulfstream_V_Gear"/>

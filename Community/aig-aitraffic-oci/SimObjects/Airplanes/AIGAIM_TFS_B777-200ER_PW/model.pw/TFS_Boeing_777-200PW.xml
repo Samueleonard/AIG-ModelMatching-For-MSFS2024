@@ -23,7 +23,7 @@
 	</ModelAttachments>
 
 	<Behaviors>
-		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\TFS_Boeing_777.xml"/>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\TFS_Boeing_777.xml"/>
 
 		<Component ID="Engine_Visibility">
 			<UseTemplate Name="AIG_Boeing_777_PW_Engine_Visibility"/>

@@ -9,7 +9,7 @@
 	</LODS>
 
 	<Behaviors>
-		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\UTT_Airbus_A350.xml"/>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\UTT_Airbus_A350.xml"/>
 
 		<Component ID="Fuselage_DimCabin">
 			<UseTemplate Name="AIG_Fuselage_DimCabin">

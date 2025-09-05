@@ -11,7 +11,7 @@
 	</LODS>
 
 	<Behaviors>
-		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\FAIB_Boeing_767.xml"/>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\FAIB_Boeing_767.xml"/>
 
 		<Component ID="FAIB_B764_Templates">
 			<UseTemplate Name="FAIB_B764_Parts_Visibility"/>

@@ -10,7 +10,7 @@
 	</LODS>
 
 	<Behaviors>
-		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\HTAI_deHavilland_DHC6.xml"/>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\HTAI_deHavilland_DHC6.xml"/>
 	</Behaviors>
 
 </ModelInfo>

@@ -9,7 +9,7 @@
 	</LODS>
 
 	<Behaviors>
-		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\AIG_Airbus_A340.xml"/>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\AIG_Airbus_A340.xml"/>
 	
 		<Component ID="Cargo_Door">
 			<UseTemplate Name="AIG_Airbus_A340_Cargo_Door"/>

@@ -10,7 +10,7 @@
 	</LODS>
 
 	<Behaviors>
-		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\AIA_Fokker.xml"/>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\AIA_Fokker.xml"/>
 	</Behaviors>
 
 </ModelInfo>

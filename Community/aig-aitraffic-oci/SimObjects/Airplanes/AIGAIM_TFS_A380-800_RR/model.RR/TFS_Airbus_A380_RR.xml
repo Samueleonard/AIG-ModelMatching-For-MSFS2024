@@ -24,7 +24,7 @@
 	</ModelAttachments>
 
 	<Behaviors>
-		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\TFS_Airbus_A380.xml"/>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\TFS_Airbus_A380.xml"/>
 
 		<Component ID="Engine_Visibility">
 			<UseTemplate Name="TFS_Airbus_A380_RR_Engine_Visibility"/>

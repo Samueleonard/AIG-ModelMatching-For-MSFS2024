@@ -2,6 +2,7 @@
 	<Include ModelBehaviorFile="AIG\Common.xml"/>
 
 	<Template Name="AIG_Light_Control_Subtemplate">
+
 		<!-- Logo Light -->
         <UseTemplate Name="ASOBO_GT_Update">
             <FREQUENCY>400</FREQUENCY>

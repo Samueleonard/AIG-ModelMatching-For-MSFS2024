@@ -40,11 +40,20 @@
 	</Component>
 	
 	<Component ID="Spoilers">
-		<UseTemplate Name="UTT_A350_Spoiler_R3"/>
-		<UseTemplate Name="UTT_A350_Spoiler_R2"/>
-		<UseTemplate Name="UTT_A350_Spoiler_LR1"/>
-		<UseTemplate Name="UTT_A350_Spoiler_L3"/>
-		<UseTemplate Name="UTT_A350_Spoiler_L2"/>
+		<UseTemplate Name="UTT_A350_Spoiler_1"/>
+		<UseTemplate Name="UTT_A350_Spoiler_2">
+			<ANIM_NAME>UTT_A350_Spoiler_L2</ANIM_NAME>
+			<SIGN>-</SIGN>
+		</UseTemplate>
+		<UseTemplate Name="UTT_A350_Spoiler_2">
+			<ANIM_NAME>UTT_A350_Spoiler_R2</ANIM_NAME>
+		</UseTemplate>
+		<UseTemplate Name="UTT_A350_Spoiler_3">
+			<ANIM_NAME>UTT_A350_Spoiler_L3</ANIM_NAME>
+		</UseTemplate>
+		<UseTemplate Name="UTT_A350_Spoiler_3">
+			<ANIM_NAME>UTT_A350_Spoiler_R3</ANIM_NAME>
+		</UseTemplate>
 	</Component>
 
 	<Component ID="ControlSurfaceDroop">
@@ -55,10 +64,20 @@
 	</Component>
 	
 	<Component ID="Ailerons">
-		<UseTemplate Name="UTT_A350_aileron_L"/>
-		<UseTemplate Name="UTT_A350_aileron_R"/>
-		<UseTemplate Name="UTT_A350_aileron_L_outer"/>
-		<UseTemplate Name="UTT_A350_aileron_R_outer"/>
+		<UseTemplate Name="UTT_A350_aileron_inner">
+			<ANIM_NAME>UTT_A350_aileron_L</ANIM_NAME>
+		</UseTemplate>
+		<UseTemplate Name="UTT_A350_aileron_inner">
+			<ANIM_NAME>UTT_A350_aileron_R</ANIM_NAME>
+			<SIGN>-</SIGN>
+		</UseTemplate>
+		<UseTemplate Name="UTT_A350_aileron_outer">
+			<ANIM_NAME>UTT_A350_aileron_L_outer</ANIM_NAME>
+		</UseTemplate>
+		<UseTemplate Name="UTT_A350_aileron_outer">
+			<ANIM_NAME>UTT_A350_aileron_R_outer</ANIM_NAME>
+			<SIGN>-</SIGN>
+		</UseTemplate>
 	</Component>
 	
 	<Component ID="Rudder">

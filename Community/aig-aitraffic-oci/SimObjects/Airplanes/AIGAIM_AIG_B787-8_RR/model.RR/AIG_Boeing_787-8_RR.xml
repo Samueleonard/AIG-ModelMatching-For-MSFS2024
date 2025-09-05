@@ -21,7 +21,7 @@
 	</ModelAttachments>
 
 	<Behaviors>
-		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\AIG_Boeing_787.xml"/>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\AIG_Boeing_787.xml"/>
 	
 		<Component ID="AIG_Boeing_787_Templates">
 			<UseTemplate Name="AIG_Boeing_787_RR_Visibility"/>

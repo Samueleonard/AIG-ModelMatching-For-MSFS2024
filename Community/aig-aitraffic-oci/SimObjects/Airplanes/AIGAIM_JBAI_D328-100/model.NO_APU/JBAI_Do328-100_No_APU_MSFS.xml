@@ -14,7 +14,7 @@
 	</LODS>
 
 	<Behaviors>
-		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\JBAI_Dornier_328.xml"/>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\JBAI_Dornier_328.xml"/>
 	</Behaviors>
 
 </ModelInfo>

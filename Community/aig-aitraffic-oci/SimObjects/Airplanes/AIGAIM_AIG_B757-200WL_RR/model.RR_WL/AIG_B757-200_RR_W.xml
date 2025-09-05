@@ -26,7 +26,7 @@
 	</ModelAttachments>
 
 	<Behaviors>
-		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\AIG_Boeing_757.xml"/>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\AIG_Boeing_757.xml"/>
 
 		<Component ID="Engine_Visibility">
 			<UseTemplate Name="AIG_Boeing_757_RR_Engine_Visibility"/>

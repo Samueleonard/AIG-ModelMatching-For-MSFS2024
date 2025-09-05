@@ -10,7 +10,7 @@
 	</LODS>
 
 	<Behaviors>
-		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\KCAI_Gulfstream_G650.xml"/>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\KCAI_Gulfstream_G650.xml"/>
 	</Behaviors>
 
 </ModelInfo>

@@ -1,6 +1,6 @@
 <ModelBehaviors>
 	<Include ModelBehaviorFile="AIG\Common.xml"/>
-	
+
 
 <!-- Landing Gear -->
 
@@ -41,7 +41,7 @@
 			<ID>0</ID>
 		</Parameters>
 			<UseTemplate Name="ASOBO_GT_Anim">
-				<ANIM_CODE>(A:SIM ON GROUND, bool) 1 == if{ (A:GEAR ANIMATION POSITION:#ID#, keyframe) } 
+				<ANIM_CODE>(A:SIM ON GROUND, bool) 1 == if{ (A:GEAR ANIMATION POSITION:#ID#, keyframe) 100 max 200 min } 
 							els{ 1 225 (A:PLANE ALT ABOVE GROUND MINUS CG, feet) rng (A:VERTICAL SPEED, feet per second) 3 &gt; and if{ 100 }
 							els{ (A:GEAR ANIMATION POSITION:#ID#, keyframe) } }
 				</ANIM_CODE>
@@ -109,7 +109,7 @@
 			</UseTemplate>
 		</Component>
 	</Template>
-	
+
 	<Template Name="AIG_Tire_Visibility_Base_Template">
 		<Condition NotEmpty="NODE_ID">
 			<True>
@@ -168,10 +168,11 @@
 	<Template Name="AIG_Engine_Jet_Template">
 		<Parameters Type="Default">
 			<MAX_RPM>3500</MAX_RPM>
+			<WIND_COMPONENT>6.28319 (A:PLANE HEADING DEGREES TRUE, radians) - (A:AMBIENT WIND DIRECTION, radians) + 6.28319 % pi 2 / - sin -0.05 * (A:AMBIENT WIND VELOCITY, knots) 0.4 * * -1 max 1 min</WIND_COMPONENT>
 		</Parameters>
 			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_NAME>engine#ID#</ANIM_NAME>
-				<ANIM_CODE>(A:AMBIENT WIND VELOCITY, knots) 6 &gt; (A:TURB ENG N1:#ENGINE_NUMBER#, Percent) 6.25 &lt; and if{ (A:AMBIENT WIND VELOCITY, knots) 0.02 * } 
+				<ANIM_CODE>(A:AMBIENT WIND VELOCITY, knots) 6 &gt; (A:TURB ENG N1:#ENGINE_NUMBER#, Percent) 6.25 &lt; and if{ #WIND_COMPONENT# }
 						els{ (A:TURB ENG N1:#ENGINE_NUMBER#, Percent) 6.25 &gt; if{ 0.06 #MAX_RPM# (A:TURB ENG N1:#ENGINE_NUMBER#, Percent) (A:ANIMATION DELTA TIME, seconds) * * * 5 max 75 min } 
 						els{ 0 } }</ANIM_CODE>
 				<ANIM_LENGTH>100</ANIM_LENGTH>
@@ -179,14 +180,14 @@
 				<ANIM_DELTA>1</ANIM_DELTA>
 			</UseTemplate>
 	</Template>
-	
+
 	<Template Name="AIG_Engine_Propeller_Template">
 		<Parameters Type="Default">
 			<MAX_RPM>1200</MAX_RPM>
 		</Parameters>
 			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_NAME>engine#ID#</ANIM_NAME>
-				<ANIM_CODE>0.06 #MAX_RPM# (A:PROP RPM:#ENGINE_NUMBER#, percent) (A:ANIMATION DELTA TIME, seconds) * * * </ANIM_CODE>
+				<ANIM_CODE>0.06 #MAX_RPM# (A:PROP RPM:#ENGINE_NUMBER#, percent) (A:ANIMATION DELTA TIME, seconds) * * *</ANIM_CODE>
 				<ANIM_LENGTH>100</ANIM_LENGTH>
 				<ANIM_WRAP>1</ANIM_WRAP>
 				<ANIM_DELTA>1</ANIM_DELTA>
@@ -209,7 +210,7 @@
 			</Default>
 		</Switch>
 	</Template>
-		
+
 	<Template Name="AIG_Engine_Visibility_SubTemplate">
 		<Parameters Type="Default">
 			<STILL_NODE_ID>Engine_Still_#ID#</STILL_NODE_ID>
@@ -250,7 +251,7 @@
 			</UseTemplate>
 		</Component>
 	</Template>
-		
+
 	<Template Name="AIG_Engine_Visibility_Simple_SubTemplate">
 		<Parameters Type="Default">
 			<STILL_NODE_ID>Engine_Still_#ID#</STILL_NODE_ID>
@@ -283,7 +284,7 @@
 			</UseTemplate>
 		</Component>
 	</Template>
-	
+
 	<Template Name="AIG_Engine_Visibility_Base_Template">
 		<Condition NotEmpty="NODE_ID">
 			<True>
@@ -493,9 +494,10 @@
 			<ANIM_NAME>AI_Rudder_wind_deflect</ANIM_NAME>
 			<ANIM_LENGTH>100</ANIM_LENGTH>
 			<ANIM_LAG>8</ANIM_LAG>
+			<WIND_MAGNITUDE>6.28319 (A:PLANE HEADING DEGREES TRUE, radians) - (A:AMBIENT WIND DIRECTION, radians) + 6.28319 % pi 2 / - cos -1 * (A:AMBIENT WIND VELOCITY, kph) 2 * * 50 +</WIND_MAGNITUDE>		
 		</Parameters>
 			<UseTemplate Name="ASOBO_GT_Anim">
-				<ANIM_CODE>(A:AMBIENT WIND VELOCITY, knots) 8 &gt; (A:LIGHT BEACON, bool) 0 == and if{ (A:PLANE HEADING DEGREES TRUE, degree) (A:AMBIENT WIND DIRECTION, degree) - 0 max 100 min } els{ 50 }</ANIM_CODE>
+				<ANIM_CODE>(A:ENG COMBUSTION:1, bool) 0 == if{ 360 (A:PLANE HEADING DEGREES TRUE, degree) - (A:AMBIENT WIND DIRECTION, degree) + 360 % 180 &lt; if{ #WIND_MAGNITUDE# 0 max 50 min } els{ #WIND_MAGNITUDE# 50 max 100 min } } els{ 50 }</ANIM_CODE>
 			</UseTemplate>
 	</Template>
 
@@ -600,7 +602,7 @@
 			</UseTemplate>
 		</Condition>
 	</Template>
-	
+
 	<Template Name="AIG_Visibility_Base_Template">
 		<Condition NotEmpty="NODE_ID">
 			<True>

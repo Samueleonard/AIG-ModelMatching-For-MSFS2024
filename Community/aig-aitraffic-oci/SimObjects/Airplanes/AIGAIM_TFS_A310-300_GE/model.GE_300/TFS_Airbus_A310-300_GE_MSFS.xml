@@ -11,7 +11,7 @@
 	</LODS>
 
 	<Behaviors>
-		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\TFS_Airbus_A310.xml"/>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\TFS_Airbus_A310.xml"/>
 	</Behaviors>
 
 </ModelInfo>

@@ -40,12 +40,28 @@
 	</Component>
 
 	<Component ID="Spoilers">
-		<UseTemplate Name="AIG_B757_Spoiler_L1"/>
-		<UseTemplate Name="AIG_B757_Spoiler_L2"/>
-		<UseTemplate Name="AIG_B757_Spoiler_L3"/>
-		<UseTemplate Name="AIG_B757_Spoiler_R1"/>
-		<UseTemplate Name="AIG_B757_Spoiler_R2"/>
-		<UseTemplate Name="AIG_B757_Spoiler_R3"/>
+		<UseTemplate Name="AIG_B757_Spoiler_1">
+			<ANIM_NAME>AIG_B757_Spoiler_L1</ANIM_NAME>
+		</UseTemplate>
+		<UseTemplate Name="AIG_B757_Spoiler_1">
+			<ANIM_NAME>AIG_B757_Spoiler_R1</ANIM_NAME>
+		</UseTemplate>
+		<UseTemplate Name="AIG_B757_Spoiler_2">
+			<ANIM_NAME>AIG_B757_Spoiler_L2</ANIM_NAME>
+			<SIDE>LEFT</SIDE>
+		</UseTemplate>
+		<UseTemplate Name="AIG_B757_Spoiler_2">
+			<ANIM_NAME>AIG_B757_Spoiler_R2</ANIM_NAME>
+			<SIDE>RIGHT</SIDE>
+		</UseTemplate>
+		<UseTemplate Name="AIG_B757_Spoiler_3">
+			<ANIM_NAME>AIG_B757_Spoiler_L3</ANIM_NAME>
+			<SIDE>LEFT</SIDE>
+		</UseTemplate>
+		<UseTemplate Name="AIG_B757_Spoiler_3">
+			<ANIM_NAME>AIG_B757_Spoiler_R3</ANIM_NAME>
+			<SIDE>RIGHT</SIDE>
+		</UseTemplate>
 	</Component>
 
 	<Component ID="Reverse_Thrust">

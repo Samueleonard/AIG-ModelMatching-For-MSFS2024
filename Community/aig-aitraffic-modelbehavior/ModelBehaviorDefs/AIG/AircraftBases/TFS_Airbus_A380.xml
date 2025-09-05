@@ -49,9 +49,14 @@
 	</Component>
 	
 	<Component ID="Spoilers">
-		<UseTemplate Name="TFS_A380_spoiler_L_outer"/>
-		<UseTemplate Name="TFS_A380_spoiler_R_outer"/>
 		<UseTemplate Name="TFS_A380_spoiler_inner"/>
+		<UseTemplate Name="TFS_A380_spoiler_outer">
+			<ANIM_NAME>TFS_A380_spoiler_L_outer</ANIM_NAME>
+			<SIGN>-</SIGN>
+		</UseTemplate>
+		<UseTemplate Name="TFS_A380_spoiler_outer">
+			<ANIM_NAME>TFS_A380_spoiler_R_outer</ANIM_NAME>
+		</UseTemplate>
 	</Component>
 	
 	<Component ID="ControlSurfaceDroop">
@@ -62,12 +67,27 @@
 	</Component>
 	
 	<Component ID="Ailerons">
-		<UseTemplate Name="TFS_A380_aileron_L_inner"/>
-		<UseTemplate Name="TFS_A380_aileron_R_inner"/>
-		<UseTemplate Name="TFS_A380_aileron_L_middle"/>
-		<UseTemplate Name="TFS_A380_aileron_R_middle"/>
-		<UseTemplate Name="TFS_A380_aileron_L_outer"/>
-		<UseTemplate Name="TFS_A380_aileron_R_outer"/>
+		<UseTemplate Name="TFS_A380_aileron_inner">
+			<ANIM_NAME>TFS_A380_aileron_L_inner</ANIM_NAME>
+		</UseTemplate>
+		<UseTemplate Name="TFS_A380_aileron_inner">
+			<ANIM_NAME>TFS_A380_aileron_R_inner</ANIM_NAME>
+			<SIGN>-</SIGN>
+		</UseTemplate>
+		<UseTemplate Name="TFS_A380_aileron_middle">
+			<ANIM_NAME>TFS_A380_aileron_L_middle</ANIM_NAME>
+			<SIGN>-</SIGN>
+		</UseTemplate>
+		<UseTemplate Name="TFS_A380_aileron_middle">
+			<ANIM_NAME>TFS_A380_aileron_R_middle</ANIM_NAME>
+		</UseTemplate>
+		<UseTemplate Name="TFS_A380_aileron_outer">
+			<ANIM_NAME>TFS_A380_aileron_L_outer</ANIM_NAME>
+		</UseTemplate>
+		<UseTemplate Name="TFS_A380_aileron_outer">
+			<ANIM_NAME>TFS_A380_aileron_R_outer</ANIM_NAME>
+			<SIGN>-</SIGN>
+		</UseTemplate>
 	</Component>
 	
 	<Component ID="Rudder">

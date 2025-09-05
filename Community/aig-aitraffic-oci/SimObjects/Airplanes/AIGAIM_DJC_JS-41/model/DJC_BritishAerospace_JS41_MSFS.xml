@@ -15,7 +15,7 @@
 	</LODS>
 
 	<Behaviors>
-		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\DJC_BritishAerospace_JS41.xml"/>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\DJC_BritishAerospace_JS41.xml"/>
 	</Behaviors>
 
 </ModelInfo>

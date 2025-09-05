@@ -11,7 +11,7 @@
 	</LODS>
 
 	<Behaviors>
-		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\AIG_Pilatus_PC12.xml"/>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\AIG_Pilatus_PC12.xml"/>
 	</Behaviors>
 
 </ModelInfo>

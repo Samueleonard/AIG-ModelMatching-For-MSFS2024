@@ -57,10 +57,20 @@
 	</Component>
 
 	<Component ID="Ailerons">
-		<UseTemplate Name="AIG_A330_aileron_L_inner"/>
-		<UseTemplate Name="AIG_A330_aileron_R_inner"/>
-		<UseTemplate Name="AIG_A330_aileron_L_outer"/>
-		<UseTemplate Name="AIG_A330_aileron_R_outer"/>
+		<UseTemplate Name="AIG_A330_aileron_inner">
+			<ANIM_NAME>AIG_A330NEO_aileron_L_inner</ANIM_NAME>
+			<SIGN>-</SIGN>
+		</UseTemplate>
+		<UseTemplate Name="AIG_A330_aileron_inner">
+			<ANIM_NAME>AIG_A330NEO_aileron_R_inner</ANIM_NAME>
+		</UseTemplate>
+		<UseTemplate Name="AIG_A330_aileron_outer">
+			<ANIM_NAME>AIG_A330NEO_aileron_L_outer</ANIM_NAME>
+			<SIGN>-</SIGN>
+		</UseTemplate>
+		<UseTemplate Name="AIG_A330_aileron_outer">
+			<ANIM_NAME>AIG_A330NEO_aileron_R_outer</ANIM_NAME>
+		</UseTemplate>
 	</Component>
 
 	<Component ID="Engines">

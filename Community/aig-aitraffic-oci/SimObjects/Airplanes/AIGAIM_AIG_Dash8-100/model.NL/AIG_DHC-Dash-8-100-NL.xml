@@ -22,7 +22,7 @@
 	</ModelAttachments>
 
 	<Behaviors>
-		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\AIG_DeHavilland_Dash8.xml"/>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\AIG_DeHavilland_Dash8.xml"/>
 	
 		<Component ID="AIG_DeHavilland_Dash8_Templates">
 			<UseTemplate Name="AIG_DeHavilland_Dash8-100"/>

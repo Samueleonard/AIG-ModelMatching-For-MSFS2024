@@ -55,12 +55,22 @@
 			<ANIM_NAME>reverse_thrust</ANIM_NAME>
 		</UseTemplate>
 	</Component>
-	
+
 	<Component ID="Ailerons">
-		<UseTemplate Name="AIG_A340_aileron_L_inner"/>
-		<UseTemplate Name="AIG_A340_aileron_R_inner"/>
-		<UseTemplate Name="AIG_A340_aileron_L_outer"/>
-		<UseTemplate Name="AIG_A340_aileron_R_outer"/>
+		<UseTemplate Name="AIG_A340_aileron_inner">
+			<ANIM_NAME>aileron_L_inner</ANIM_NAME>
+			<SIGN>-</SIGN>
+		</UseTemplate>
+		<UseTemplate Name="AIG_A340_aileron_inner">
+			<ANIM_NAME>aileron_R_inner</ANIM_NAME>
+		</UseTemplate>
+		<UseTemplate Name="AIG_A340_aileron_outer">
+			<ANIM_NAME>aileron_L_outer</ANIM_NAME>
+			<SIGN>-</SIGN>
+		</UseTemplate>
+		<UseTemplate Name="AIG_A340_aileron_outer">
+			<ANIM_NAME>aileron_R_outer</ANIM_NAME>
+		</UseTemplate>
 	</Component>
 
 	<Component ID="Engines">
@@ -79,7 +89,7 @@
 		<Component ID="Engine1">
 			<UseTemplate Name="AIG_Engine_Visibility_Template">
 				<ENGINE_ID>1</ENGINE_ID>
-				<NODE_PREFIX>E1</NODE_PREFIX>
+				<NODE_PREFIX>E1_</NODE_PREFIX>
 				<STILL_NODE_ID>still</STILL_NODE_ID>
 				<BLURRED_NODE_ID>blur</BLURRED_NODE_ID>
 			</UseTemplate>
@@ -87,7 +97,7 @@
 		<Component ID="Engine2">
 			<UseTemplate Name="AIG_Engine_Visibility_Template">
 				<ENGINE_ID>2</ENGINE_ID>
-				<NODE_PREFIX>E2</NODE_PREFIX>
+				<NODE_PREFIX>E2_</NODE_PREFIX>
 				<STILL_NODE_ID>still</STILL_NODE_ID>
 				<BLURRED_NODE_ID>blur</BLURRED_NODE_ID>
 			</UseTemplate>
@@ -95,7 +105,7 @@
 		<Component ID="Engine3">
 			<UseTemplate Name="AIG_Engine_Visibility_Template">
 				<ENGINE_ID>3</ENGINE_ID>
-				<NODE_PREFIX>E3</NODE_PREFIX>
+				<NODE_PREFIX>E3_</NODE_PREFIX>
 				<STILL_NODE_ID>still</STILL_NODE_ID>
 				<BLURRED_NODE_ID>blur</BLURRED_NODE_ID>
 			</UseTemplate>
@@ -103,7 +113,7 @@
 		<Component ID="Engine4">
 			<UseTemplate Name="AIG_Engine_Visibility_Template">
 				<ENGINE_ID>4</ENGINE_ID>
-				<NODE_PREFIX>E4</NODE_PREFIX>
+				<NODE_PREFIX>E4_</NODE_PREFIX>
 				<STILL_NODE_ID>still</STILL_NODE_ID>
 				<BLURRED_NODE_ID>blur</BLURRED_NODE_ID>
 			</UseTemplate>

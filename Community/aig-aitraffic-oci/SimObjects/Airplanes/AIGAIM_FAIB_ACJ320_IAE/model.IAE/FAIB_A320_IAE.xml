@@ -10,7 +10,7 @@
 	</LODS>
 
 	<Behaviors>
-		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\FAIB_Airbus_A320.xml"/>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\FAIB_Airbus_A320.xml"/>
 
 		<Component ID="FAIB_A320_Templates">
 			<UseTemplate Name="FAIB_A320_Parts_Visibility"/>

@@ -10,7 +10,7 @@
 	</LODS>
 
 	<Behaviors>
-		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\ANAI_Piper.xml"/>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\ANAI_Piper.xml"/>
 
 		<Component ID="ANAI_Piper_Templates">
 			<UseTemplate Name="ANAI_Piper_Steering"/>

@@ -4,9 +4,9 @@
 	<Include RelativeFile="Animations.xml"/>
 	<Include RelativeFile="AnimationsComplex.xml"/>
 	<Include RelativeFile="Customization.xml"/>
-	<Include RelativeFile="EngineEffects.xml"/>
 	<Include RelativeFile="FX_Base.xml"/>
-	<Include RelativeFile="LandingFX.xml"/>
+	<Include RelativeFile="FX_Engines.xml"/>
+	<Include RelativeFile="FX_Landing.xml"/>
 	<Include RelativeFile="Lights.xml"/>
 	<Include RelativeFile="Lights_Sub.xml"/>
 </ModelBehaviors>

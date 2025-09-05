@@ -12,7 +12,7 @@
 	</LODS>
 
 	<Behaviors>
-		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\HTAI_IAI_Westwind.xml"/>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\HTAI_IAI_Westwind.xml"/>
 	</Behaviors>
 
 </ModelInfo>

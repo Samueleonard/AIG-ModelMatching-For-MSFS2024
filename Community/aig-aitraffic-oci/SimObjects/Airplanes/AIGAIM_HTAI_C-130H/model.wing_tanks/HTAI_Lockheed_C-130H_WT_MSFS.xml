@@ -15,7 +15,7 @@
 	</LODS>
 
 	<Behaviors>
-		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\HTAI_Lockheed_C130.xml"/>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\HTAI_Lockheed_C130.xml"/>
 	</Behaviors>
 
 </ModelInfo>

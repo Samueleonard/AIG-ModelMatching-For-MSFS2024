@@ -15,7 +15,7 @@
 	</LODS>
 
 	<Behaviors>
-		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\DJC_FairchildSwearingen.xml"/>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\DJC_FairchildSwearingen.xml"/>
 	</Behaviors>
 
 </ModelInfo>

@@ -8,7 +8,7 @@
 	</LODS>
 
 	<Behaviors>
-		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\MRAI_Airbus_A306ST.xml"/>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\MRAI_Airbus_A306ST.xml"/>
 	</Behaviors>
 
 </ModelInfo>

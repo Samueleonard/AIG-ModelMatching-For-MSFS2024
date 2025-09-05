@@ -11,7 +11,7 @@
 	</LODS>
 
 	<Behaviors>
-		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\UTT_Sukhoi_Superjet.xml"/>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\UTT_Sukhoi_Superjet.xml"/>
 	</Behaviors>
 
 </ModelInfo>

@@ -11,7 +11,7 @@
 	</LODS>
 
 	<Behaviors>
-		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\NAAI_Fokker50.xml"/>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\NAAI_Fokker50.xml"/>
 	</Behaviors>
 
 </ModelInfo>

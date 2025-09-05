@@ -8,7 +8,7 @@
 	</LODS>
 
 	<Behaviors>
-		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\MGAI_Beechcraft_KingAir350.xml"/>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\MGAI_Beechcraft_KingAir350.xml"/>
 	</Behaviors>
 
 </ModelInfo>

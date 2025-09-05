@@ -9,7 +9,7 @@
 	</LODS>
 
 	<Behaviors>
-		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\RFSL_Bombardier_CRJ.xml"/>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\RFSL_Bombardier_CRJ.xml"/>
 	</Behaviors>
 
 </ModelInfo>

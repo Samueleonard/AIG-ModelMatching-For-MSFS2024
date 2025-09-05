@@ -4,7 +4,7 @@ import subprocess
 from pathlib import Path
 
 github_folder = Path("C:/Users/samue/Documents/GitHub/AIG-ModelMatching-For-MSFS2024")
-addon_folder = Path("F:/MSFS Addons/MSFS 2024/Addons/Ai Traffic")
+addon_folder = Path("F:/MSFS Addons/Addons/AI Traffic")
 move_folders = [
     "aig-aitraffic-effects", 
     "aig-aitraffic-modelbehavior",

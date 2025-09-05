@@ -9,7 +9,7 @@
 	</LODS>
 
 	<Behaviors>
-		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\RFSL_Embraer_EJet.xml"/>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\RFSL_Embraer_EJet.xml"/>
 	</Behaviors>
 
 </ModelInfo>

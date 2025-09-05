@@ -16,7 +16,7 @@
 	</LODS>
 
 	<Behaviors>
-		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\AIG_Antonov_An124.xml"/>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\AIG_Antonov_An124.xml"/>
 	</Behaviors>
 
 </ModelInfo>

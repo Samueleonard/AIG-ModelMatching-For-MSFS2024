@@ -12,7 +12,7 @@
 
 	<Behaviors>
 		<Include ModelBehaviorFile="AIG\AircraftBases\DWAI_Aircraft.xml"/>
-		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\Lights.xml"/>
+		<IncludeBase ModelBehaviorFile="AIG\Lights.xml"/>
 		
 		<Component ID="DWAI_Short_SD3_Templates">
 			<UseTemplate Name="DWAI_Short_SD3_Common"/>

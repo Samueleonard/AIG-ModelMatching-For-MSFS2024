@@ -22,7 +22,7 @@
 	</ModelAttachments>
 
 	<Behaviors>
-		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\TFS_Boeing_777.xml"/>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\TFS_Boeing_777.xml"/>
 
 		<Component ID="TFS_Boeing_777_Templates">
 			<UseTemplate Name="TFS_Boeing_773_Gearlight"/>

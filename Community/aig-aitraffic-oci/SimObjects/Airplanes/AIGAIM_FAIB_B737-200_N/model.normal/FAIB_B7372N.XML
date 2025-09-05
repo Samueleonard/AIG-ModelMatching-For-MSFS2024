@@ -10,7 +10,7 @@
 	</LODS>
 
 	<Behaviors>
-		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\AircraftBases\FAIB_Boeing_737.xml"/>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\FAIB_Boeing_737.xml"/>
 
 		<Component ID="FAIB_Boeing_737-200N_Templates">
 			<UseTemplate Name="FAIB_Boeing_737-200_FlapsSlats"/>

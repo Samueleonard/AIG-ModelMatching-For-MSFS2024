@@ -10,7 +10,7 @@
 
 	<Behaviors>
 		<Include ModelBehaviorFile="AIG\AircraftBases\TBAI_Piper.xml"/>
-		<IncludeBase RelativeFile="..\..\..\..\ModelBehaviorDefs\AIG\Lights.xml"/>
+		<IncludeBase ModelBehaviorFile="AIG\Lights.xml"/>
 		
 		<Component ID="TBAI_Piper_PA31_Templates">
 			<UseTemplate Name="TBAI_Piper_PA31_Common"/>
