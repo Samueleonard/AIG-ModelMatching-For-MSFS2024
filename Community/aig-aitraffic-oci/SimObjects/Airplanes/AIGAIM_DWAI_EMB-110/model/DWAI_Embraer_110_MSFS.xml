@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="21" ModelFile="DWAI_Embraer_110_MSFS_LOD0.gltf"/>
+		<LOD minSize="7" ModelFile="DWAI_Embraer_110_MSFS_LOD1.gltf"/>
+		<LOD minSize="0.5" ModelFile="DWAI_Embraer_110_MSFS_LOD2.gltf"/>
+	</LODS>
+	
+	<Behaviors>
+		<Include ModelBehaviorFile="AIG\AircraftBases\DWAI_Aircraft.xml"/>
+		<IncludeBase ModelBehaviorFile="AIG\Lights.xml"/>
+		
+		<Component ID="DWAI_Embraer_EMB110_Templates">
+			<UseTemplate Name="DWAI_Embraer_EMB110_Common"/>
+		</Component>
+			
+	</Behaviors>
+
+</ModelInfo>

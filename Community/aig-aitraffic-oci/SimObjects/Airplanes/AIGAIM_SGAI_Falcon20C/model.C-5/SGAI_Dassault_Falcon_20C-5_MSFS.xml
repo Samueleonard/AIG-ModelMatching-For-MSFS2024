@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="10" ModelFile="SGAI_Dassault_Falcon_20C-5_MSFS_LOD0.gltf"/>
+		<LOD minSize="5" ModelFile="SGAI_Dassault_Falcon_20C-5_MSFS_LOD0.gltf"/>
+		<LOD minSize="1" ModelFile="SGAI_Dassault_Falcon_20C-5_MSFS_LOD1.gltf"/>
+		<LOD minSize="0.5" ModelFile="SGAI_Dassault_Falcon_20C-5_MSFS_LOD1.gltf"/>
+	</LODS>
+
+	<Behaviors>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\SGAI_Falcon20.xml"/>
+	</Behaviors>
+
+</ModelInfo>

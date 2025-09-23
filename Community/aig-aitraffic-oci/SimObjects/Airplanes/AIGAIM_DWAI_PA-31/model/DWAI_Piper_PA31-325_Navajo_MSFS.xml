@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="22" ModelFile="DWAI_Piper_PA31-325_Navajo_MSFS_LOD0.gltf"/>
+		<LOD minSize="7" ModelFile="DWAI_Piper_PA31-325_Navajo_MSFS_LOD1.gltf"/>
+		<LOD minSize="0.5" ModelFile="DWAI_Piper_PA31-325_Navajo_MSFS_LOD2.gltf"/>
+	</LODS>
+
+	<Behaviors>
+		<Include ModelBehaviorFile="AIG\AircraftBases\DWAI_Aircraft.xml"/>
+		<IncludeBase ModelBehaviorFile="AIG\Lights.xml"/>
+		
+		<Component ID="DWAI_Piper_PA31-325_Templates">
+			<UseTemplate Name="DWAI_Piper_PA31-325_Common"/>
+		</Component>
+			
+	</Behaviors>
+
+</ModelInfo>

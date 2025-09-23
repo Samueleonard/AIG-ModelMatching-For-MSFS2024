@@ -18,7 +18,7 @@ Download the AIG pack using the link below:
 
 - [Google Drive](https://drive.google.com/file/d/1XTUj5FHJXa9jXMRkpDdVhAkpJHNtjWEJ/view?usp=sharing)
 
-The file is a large zip archive (~80.9GB uncompressed, ~4.1GB compressed).
+The file is a large zip archive (~82.4GB uncompressed, ~3.1GB compressed).
 
 > **Important:** Do not download any GitHub files, as this will not work.
 

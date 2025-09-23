@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="26" ModelFile="DWAI_Beechcraft_King_Air_A100_MSFS_LOD0.gltf"/>
+		<LOD minSize="24" ModelFile="DWAI_Beechcraft_King_Air_A100_MSFS_LOD1.gltf"/>
+		<LOD minSize="23" ModelFile="DWAI_Beechcraft_King_Air_A100_MSFS_LOD2.gltf"/>
+		<LOD minSize="20" ModelFile="DWAI_Beechcraft_King_Air_A100_MSFS_LOD3.gltf"/>
+		<LOD minSize="18" ModelFile="DWAI_Beechcraft_King_Air_A100_MSFS_LOD4.gltf"/>
+		<LOD minSize="17" ModelFile="DWAI_Beechcraft_King_Air_A100_MSFS_LOD5.gltf"/>
+		<LOD minSize="7" ModelFile="DWAI_Beechcraft_King_Air_A100_MSFS_LOD6.gltf"/>
+		<LOD minSize="0.5" ModelFile="DWAI_Beechcraft_King_Air_A100_MSFS_LOD7.gltf"/>
+	</LODS>
+
+	<Behaviors>
+		<Include ModelBehaviorFile="AIG\AircraftBases\DWAI_Aircraft.xml"/>
+		<IncludeBase ModelBehaviorFile="AIG\Lights.xml"/>
+		
+		<Component ID="DWAI_Beechcraft_KingAirA100_Templates">
+			<UseTemplate Name="DWAI_Beechcraft_KingAirA100_Common"/>
+		</Component>
+			
+	</Behaviors>
+
+</ModelInfo>

@@ -132,7 +132,7 @@
 	</Component>
 
 <Template Name="AIG_DeHavilland_Dash8-100">
-	<Component ID="Spoilers">
+	<Component ID="ControlSurfaces">
 		<UseTemplate Name="AIG_Dash8-100-400_Spoiler">
 			<ANIM_NAME>Dash8-100_Spoiler_L</ANIM_NAME>
 			<SIDE>LEFT</SIDE>
@@ -148,7 +148,7 @@
 </Template>
 
 <Template Name="AIG_DeHavilland_Dash8-200-300">
-	<Component ID="Spoilers">
+	<Component ID="ControlSurfaces">
 		<UseTemplate Name="AIG_Dash8-200-300_Spoiler">
 			<ANIM_NAME>Dash8-200-300_Spoiler_L</ANIM_NAME>
 			<SIDE>LEFT</SIDE>
@@ -164,7 +164,7 @@
 </Template>
 
 <Template Name="AIG_DeHavilland_Dash8-400_Spoilers">
-	<Component ID="Spoilers">
+	<Component ID="ControlSurfaces">
 		<UseTemplate Name="AIG_Dash8-100-400_Spoiler">
 			<ANIM_NAME>Dash8-400_Spoiler_L</ANIM_NAME>
 			<SIDE>LEFT</SIDE>

@@ -65,20 +65,14 @@
 			<SLAT1_SPEED>195</SLAT1_SPEED>
 			<SLAT1_DEGREES>100</SLAT1_DEGREES>
 		</UseTemplate>
-		<UseTemplate Name="AIG_Slats">
-			<ANIM_NAME>AIA_727_custom_anim_SLATS_AIRLINER</ANIM_NAME>
-			<SLAT_TO_DEGREES>100</SLAT_TO_DEGREES>
-			<SLAT1_SPEED>195</SLAT1_SPEED>
-			<SLAT1_DEGREES>100</SLAT1_DEGREES>
-		</UseTemplate>
 		<Component ID="Inner_Slats">
 			<UseTemplate Name="ASOBO_GT_Anim_Code">
 				<ANIM_NAME>AIA_727_custom_anim_SLATS_AIRLINER</ANIM_NAME>
 				<ANIM_CODE>(A:LIGHT BEACON, bool) 0 == if{ 50 }
-		   els{ (A:SIM ON GROUND, bool) 1 == (A:SPOILERS HANDLE POSITION, percent) 0 == and if{ 100 }
-		   els{ (A:SIM ON GROUND, bool) 1 == (A:SPOILERS HANDLE POSITION, percent) 0 &gt; and if{ 100 } 
-		   els{ (A:SIM ON GROUND, bool) 0 == (A:AIRSPEED INDICATED, knots) 180 &lt; and if{ 100 }
-		   els{ 0 } } } }
+			   els{ (A:SIM ON GROUND, bool) 1 == (A:SPOILERS HANDLE POSITION, percent) 0 == and if{ 100 }
+			   els{ (A:SIM ON GROUND, bool) 1 == (A:SPOILERS HANDLE POSITION, percent) 0 &gt; and if{ 100 } 
+			   els{ (A:SIM ON GROUND, bool) 0 == (A:AIRSPEED INDICATED, knots) 180 &lt; and if{ 100 }
+			   els{ 0 } } } }
 				</ANIM_CODE>
 				<ANIM_LENGTH>100</ANIM_LENGTH>
 				<ANIM_LAG>5</ANIM_LAG>
@@ -95,7 +89,7 @@
 		</UseTemplate>
 		<UseTemplate Name="AIG_Visibility_Template">
 			<PART>LandingLight_NoseGear</PART>
-			<NODE_ID>landing_nose_l</NODE_ID>
+			<NODE_ID>landing_nose</NODE_ID>
 		</UseTemplate>
 	</Component>
 		
@@ -119,6 +113,14 @@
 		<UseTemplate Name="AIG_TriEngineJet_Effects"/>
 		<UseTemplate Name="AIG_LandingFX">
 			<Medium>True</Medium>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Fuselage_DimCabin">
+		<UseTemplate Name="AIG_Fuselage_DimCabin">
+			<NODE_ID>cabin_lights_VC</NODE_ID>
+			<TIME_START>26100</TIME_START>
+			<TIME_END>80100</TIME_END>
 		</UseTemplate>
 	</Component>
 

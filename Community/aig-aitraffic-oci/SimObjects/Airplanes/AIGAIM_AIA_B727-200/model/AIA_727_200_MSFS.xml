@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="10" ModelFile="AIA_727_200_MSFS_LOD0.gltf"/>
+		<LOD minSize="7" ModelFile="AIA_727_200_MSFS_LOD1.gltf"/>
+		<LOD minSize="5" ModelFile="AIA_727_200_MSFS_LOD2.gltf"/>
+		<LOD minSize="3" ModelFile="AIA_727_200_MSFS_LOD3.gltf"/>
+		<LOD minSize="0.5" ModelFile="AIA_727_200_MSFS_LOD4.gltf"/>
+	</LODS>
+
+	<Behaviors>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\AIA_Boeing_727.xml"/>	
+	</Behaviors>
+
+</ModelInfo>
