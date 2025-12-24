@@ -2,15 +2,25 @@
 <ModelInfo>
 
 	<LODS>
-		<LOD minSize="20" ModelFile="RFSL_Bombardier_CRJ-700_MSFS_LOD0.gltf"/>
-		<LOD minSize="10" ModelFile="RFSL_Bombardier_CRJ-700_MSFS_LOD0.gltf"/>
+		<LOD minSize="20" ModelFile="RFSL_Bombardier_CRJ-700_MSFS_LOD0.gltf">
+			<AttachModel id="Antenna"/>
+		</LOD>
+		<LOD minSize="10" ModelFile="RFSL_Bombardier_CRJ-700_MSFS_LOD0.gltf">
+			<AttachModel id="Antenna"/>
+		</LOD>
 		<LOD minSize="1" ModelFile="RFSL_Bombardier_CRJ-700_MSFS_LOD1.gltf"/>
 		<LOD minSize="0.5" ModelFile="RFSL_Bombardier_CRJ-700_MSFS_LOD1.gltf"/>
 	</LODS>
 
+	<ModelAttachments>
+		<ModelAttachment id="Antenna">
+			<Model>RFSL_Bombardier_CRJ-700_antenna.xml</Model>
+		</ModelAttachment>
+	</ModelAttachments>
+
 	<Behaviors>
 		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\RFSL_Bombardier_CRJ.xml"/>
-	
+
 		<Component ID="RFSL_Bombardier_CRJ_Templates">
 			<UseTemplate Name="RFSL_Bombardier_CRJ_Slats"/>
 		</Component>
