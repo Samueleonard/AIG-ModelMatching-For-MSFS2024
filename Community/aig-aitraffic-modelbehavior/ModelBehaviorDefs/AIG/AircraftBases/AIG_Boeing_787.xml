@@ -34,7 +34,6 @@
 
 	<Component ID="Nosewheel_Steering">
 		<UseTemplate Name="AIG_Nosewheel_Steering">
-			<ANIM_NAME>custom_anim_C_WHEEL_LR</ANIM_NAME>
 			<ANIM_SHARPNESS>50</ANIM_SHARPNESS>
 		</UseTemplate>
 	</Component>
@@ -163,8 +162,7 @@
 	</Component>
 
 	<Component ID="FlapsSlats">
-		<UseTemplate Name="AIG_Flaps">
-			<ANIM_NAME>Flaps</ANIM_NAME>
+		<Parameters Type="Default">
 			<FLAP_TO_DEGREES>43</FLAP_TO_DEGREES>
 			<FLAP1_SPEED>180</FLAP1_SPEED>
 			<FLAP1_DEGREES>100</FLAP1_DEGREES>
@@ -176,9 +174,6 @@
 			<FLAP4_DEGREES>14</FLAP4_DEGREES>
 			<FLAP5_SPEED>250</FLAP5_SPEED>
 			<FLAP5_DEGREES>3</FLAP5_DEGREES>
-		</UseTemplate>
-		<UseTemplate Name="AIG_Slats">
-			<ANIM_NAME>Slats</ANIM_NAME>
 			<SLAT_TO_DEGREES>83</SLAT_TO_DEGREES>
 			<SLAT1_SPEED>180</SLAT1_SPEED>
 			<SLAT1_DEGREES>100</SLAT1_DEGREES>
@@ -186,38 +181,22 @@
 			<SLAT2_DEGREES>71</SLAT2_DEGREES>
 			<SLAT3_SPEED>215</SLAT3_SPEED>
 			<SLAT3_DEGREES>50</SLAT3_DEGREES>
+		</Parameters>
+		<UseTemplate Name="AIG_Flaps">
+			<ANIM_NAME>Flaps</ANIM_NAME>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Slats">
+			<ANIM_NAME>Slats</ANIM_NAME>
 		</UseTemplate>
 		<UseTemplate Name="B787_Flaperon">
 			<ANIM_NAME>Flaperon_L</ANIM_NAME>
 			<SIDE>LEFT</SIDE>
 			<SIGN></SIGN>
-			<FLAP_TO_DEGREES>43</FLAP_TO_DEGREES>
-			<FLAP1_SPEED>180</FLAP1_SPEED>
-			<FLAP1_DEGREES>100</FLAP1_DEGREES>
-			<FLAP2_SPEED>200</FLAP2_SPEED>
-			<FLAP2_DEGREES>71</FLAP2_DEGREES>
-			<FLAP3_SPEED>215</FLAP3_SPEED>
-			<FLAP3_DEGREES>43</FLAP3_DEGREES>
-			<FLAP4_SPEED>230</FLAP4_SPEED>
-			<FLAP4_DEGREES>14</FLAP4_DEGREES>
-			<FLAP5_SPEED>250</FLAP5_SPEED>
-			<FLAP5_DEGREES>3</FLAP5_DEGREES>
 		</UseTemplate>
 		<UseTemplate Name="B787_Flaperon">
 			<ANIM_NAME>Flaperon_R</ANIM_NAME>
 			<SIDE>RIGHT</SIDE>
 			<SIGN>-</SIGN>
-			<FLAP_TO_DEGREES>43</FLAP_TO_DEGREES>
-			<FLAP1_SPEED>180</FLAP1_SPEED>
-			<FLAP1_DEGREES>100</FLAP1_DEGREES>
-			<FLAP2_SPEED>200</FLAP2_SPEED>
-			<FLAP2_DEGREES>71</FLAP2_DEGREES>
-			<FLAP3_SPEED>215</FLAP3_SPEED>
-			<FLAP3_DEGREES>43</FLAP3_DEGREES>
-			<FLAP4_SPEED>230</FLAP4_SPEED>
-			<FLAP4_DEGREES>14</FLAP4_DEGREES>
-			<FLAP5_SPEED>250</FLAP5_SPEED>
-			<FLAP5_DEGREES>3</FLAP5_DEGREES>
 		</UseTemplate>
 	</Component>
 
@@ -267,21 +246,19 @@
 	<Component ID="Engine_Visibility">
 		<Parameters Type="Override">
 			<ENGINE_TYPE>Jet</ENGINE_TYPE>
+			<STILL_NODE_ID>still</STILL_NODE_ID>
+			<BLURRED_NODE_ID>blur</BLURRED_NODE_ID>
 		</Parameters>
 		<Component ID="Engine1">
 			<UseTemplate Name="AIG_Engine_Visibility_Template">
 				<ENGINE_ID>1</ENGINE_ID>
 				<NODE_PREFIX>engine1_GE_</NODE_PREFIX>
-				<STILL_NODE_ID>still</STILL_NODE_ID>
-				<BLURRED_NODE_ID>blur</BLURRED_NODE_ID>
 			</UseTemplate>
 		</Component>
 		<Component ID="Engine2">
 			<UseTemplate Name="AIG_Engine_Visibility_Template">
 				<ENGINE_ID>2</ENGINE_ID>
 				<NODE_PREFIX>engine2_GE_</NODE_PREFIX>
-				<STILL_NODE_ID>still</STILL_NODE_ID>
-				<BLURRED_NODE_ID>blur</BLURRED_NODE_ID>
 			</UseTemplate>
 		</Component>
 	</Component>
@@ -291,21 +268,19 @@
 	<Component ID="Engine_Visibility">
 		<Parameters Type="Override">
 			<ENGINE_TYPE>Jet</ENGINE_TYPE>
+			<STILL_NODE_ID>still</STILL_NODE_ID>
+			<BLURRED_NODE_ID>blur</BLURRED_NODE_ID>
 		</Parameters>
 		<Component ID="Engine1">
 			<UseTemplate Name="AIG_Engine_Visibility_Template">
 				<ENGINE_ID>1</ENGINE_ID>
 				<NODE_PREFIX>engine1_RR_</NODE_PREFIX>
-				<STILL_NODE_ID>still</STILL_NODE_ID>
-				<BLURRED_NODE_ID>blur</BLURRED_NODE_ID>
 			</UseTemplate>
 		</Component>
 		<Component ID="Engine2">
 			<UseTemplate Name="AIG_Engine_Visibility_Template">
 				<ENGINE_ID>2</ENGINE_ID>
 				<NODE_PREFIX>engine2_RR_</NODE_PREFIX>
-				<STILL_NODE_ID>still</STILL_NODE_ID>
-				<BLURRED_NODE_ID>blur</BLURRED_NODE_ID>
 			</UseTemplate>
 		</Component>
 	</Component>

@@ -43,7 +43,6 @@
 	
 	<Component ID="Nosewheel_Steering">
 		<UseTemplate Name="AIG_Nosewheel_Steering">
-			<ANIM_NAME>custom_anim_C_WHEEL_LR</ANIM_NAME>
 			<ANIM_SHARPNESS>50</ANIM_SHARPNESS>
 		</UseTemplate>
 	</Component>
@@ -68,21 +67,19 @@
 	<Component ID="Engine_Visibility">
 		<Parameters Type="Override">
 			<ENGINE_TYPE>Jet</ENGINE_TYPE>
+			<STILL_NODE_ID>still_VC</STILL_NODE_ID>
+			<BLURRED_NODE_ID>blurred_VC</BLURRED_NODE_ID>
 		</Parameters>
 		<Component ID="Engine1">
 			<UseTemplate Name="AIG_Engine_Visibility_Template">
 				<ENGINE_ID>1</ENGINE_ID>
 				<NODE_PREFIX>prop0_</NODE_PREFIX>
-				<STILL_NODE_ID>still_VC</STILL_NODE_ID>
-				<BLURRED_NODE_ID>blurred_VC</BLURRED_NODE_ID>
 			</UseTemplate>
 		</Component>
 		<Component ID="Engine2">
 			<UseTemplate Name="AIG_Engine_Visibility_Template">
 				<ENGINE_ID>2</ENGINE_ID>
 				<NODE_PREFIX>prop1_</NODE_PREFIX>
-				<STILL_NODE_ID>still_VC</STILL_NODE_ID>
-				<BLURRED_NODE_ID>blurred_VC</BLURRED_NODE_ID>
 			</UseTemplate>
 		</Component>
 	</Component>

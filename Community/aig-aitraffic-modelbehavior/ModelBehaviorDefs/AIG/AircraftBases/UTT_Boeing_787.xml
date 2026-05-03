@@ -36,7 +36,6 @@
 
 	<Component ID="Nosewheel_Steering">
 		<UseTemplate Name="AIG_Nosewheel_Steering">
-			<ANIM_NAME>custom_anim_C_WHEEL_LR</ANIM_NAME>
 			<ANIM_SHARPNESS>50</ANIM_SHARPNESS>
 		</UseTemplate>
 	</Component>

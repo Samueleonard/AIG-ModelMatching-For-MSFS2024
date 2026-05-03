@@ -34,7 +34,6 @@
 
 	<Component ID="Nosewheel_Steering">
 		<UseTemplate Name="AIG_Nosewheel_Steering">
-			<ANIM_NAME>custom_anim_C_WHEEL_LR</ANIM_NAME>
 			<ANIM_SHARPNESS>70</ANIM_SHARPNESS>
 		</UseTemplate>
 	</Component>
@@ -270,21 +269,19 @@
 	<Component ID="GE_Engine_Visibility">
 		<Parameters Type="Override">
 			<ENGINE_TYPE>Jet</ENGINE_TYPE>
+			<STILL_NODE_ID>still</STILL_NODE_ID>
+			<BLURRED_NODE_ID>blur</BLURRED_NODE_ID>
 		</Parameters>
 		<Component ID="Engine1">
 			<UseTemplate Name="AIG_Engine_Visibility_Template">
 				<ENGINE_ID>1</ENGINE_ID>
 				<NODE_PREFIX>GE_engine0_</NODE_PREFIX>
-				<STILL_NODE_ID>still</STILL_NODE_ID>
-				<BLURRED_NODE_ID>blur</BLURRED_NODE_ID>
 			</UseTemplate>
 		</Component>
 		<Component ID="Engine2">
 			<UseTemplate Name="AIG_Engine_Visibility_Template">
 				<ENGINE_ID>2</ENGINE_ID>
 				<NODE_PREFIX>GE_engine1_</NODE_PREFIX>
-				<STILL_NODE_ID>still</STILL_NODE_ID>
-				<BLURRED_NODE_ID>blur</BLURRED_NODE_ID>
 			</UseTemplate>
 		</Component>
 	</Component>
@@ -294,21 +291,19 @@
 	<Component ID="PW_Engine_Visibility">
 		<Parameters Type="Override">
 			<ENGINE_TYPE>Jet</ENGINE_TYPE>
+			<STILL_NODE_ID>still</STILL_NODE_ID>
+			<BLURRED_NODE_ID>blur</BLURRED_NODE_ID>
 		</Parameters>
 		<Component ID="Engine1">
 			<UseTemplate Name="AIG_Engine_Visibility_Template">
 				<ENGINE_ID>1</ENGINE_ID>
 				<NODE_PREFIX>PW_engine0_</NODE_PREFIX>
-				<STILL_NODE_ID>still</STILL_NODE_ID>
-				<BLURRED_NODE_ID>blur</BLURRED_NODE_ID>
 			</UseTemplate>
 		</Component>
 		<Component ID="Engine2">
 			<UseTemplate Name="AIG_Engine_Visibility_Template">
 				<ENGINE_ID>2</ENGINE_ID>
 				<NODE_PREFIX>PW_engine1_</NODE_PREFIX>
-				<STILL_NODE_ID>still</STILL_NODE_ID>
-				<BLURRED_NODE_ID>blur</BLURRED_NODE_ID>
 			</UseTemplate>
 		</Component>
 	</Component>
@@ -318,21 +313,19 @@
 	<Component ID="RR_Engine_Visibility">
 		<Parameters Type="Override">
 			<ENGINE_TYPE>Jet</ENGINE_TYPE>
+			<STILL_NODE_ID>still</STILL_NODE_ID>
+			<BLURRED_NODE_ID>blur</BLURRED_NODE_ID>
 		</Parameters>
 		<Component ID="Engine1">
 			<UseTemplate Name="AIG_Engine_Visibility_Template">
 				<ENGINE_ID>1</ENGINE_ID>
 				<NODE_PREFIX>RR_engine0_</NODE_PREFIX>
-				<STILL_NODE_ID>still</STILL_NODE_ID>
-				<BLURRED_NODE_ID>blur</BLURRED_NODE_ID>
 			</UseTemplate>
 		</Component>
 		<Component ID="Engine2">
 			<UseTemplate Name="AIG_Engine_Visibility_Template">
 				<ENGINE_ID>2</ENGINE_ID>
 				<NODE_PREFIX>RR_engine1_</NODE_PREFIX>
-				<STILL_NODE_ID>still</STILL_NODE_ID>
-				<BLURRED_NODE_ID>blur</BLURRED_NODE_ID>
 			</UseTemplate>
 		</Component>
 	</Component>
@@ -342,21 +335,19 @@
 	<Component ID="A330NEO_Engine_Visibility">
 		<Parameters Type="Override">
 			<ENGINE_TYPE>Jet</ENGINE_TYPE>
+			<STILL_NODE_ID>still</STILL_NODE_ID>
+			<BLURRED_NODE_ID>blur</BLURRED_NODE_ID>
 		</Parameters>
 		<Component ID="Engine1">
 			<UseTemplate Name="AIG_Engine_Visibility_Template">
 				<ENGINE_ID>1</ENGINE_ID>
 				<NODE_PREFIX>engine0_</NODE_PREFIX>
-				<STILL_NODE_ID>still</STILL_NODE_ID>
-				<BLURRED_NODE_ID>blur</BLURRED_NODE_ID>
 			</UseTemplate>
 		</Component>
 		<Component ID="Engine2">
 			<UseTemplate Name="AIG_Engine_Visibility_Template">
 				<ENGINE_ID>2</ENGINE_ID>
 				<NODE_PREFIX>engine1_</NODE_PREFIX>
-				<STILL_NODE_ID>still</STILL_NODE_ID>
-				<BLURRED_NODE_ID>blur</BLURRED_NODE_ID>
 			</UseTemplate>
 		</Component>
 	</Component>

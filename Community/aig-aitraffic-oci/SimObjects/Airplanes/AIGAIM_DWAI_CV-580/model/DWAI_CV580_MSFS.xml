@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="24" ModelFile="DWAI_CV580_MSFS_LOD0.gltf"/>
+		<LOD minSize="16" ModelFile="DWAI_CV580_MSFS_LOD1.gltf"/>
+		<LOD minSize="9" ModelFile="DWAI_CV580_MSFS_LOD2.gltf"/>
+		<LOD minSize="7" ModelFile="DWAI_CV580_MSFS_LOD3.gltf"/>
+		<LOD minSize="0.5" ModelFile="DWAI_CV580_MSFS_LOD4.gltf"/>
+	</LODS>
+
+	<Behaviors>
+		<Include ModelBehaviorFile="AIG\AircraftBases\DWAI_Aircraft.xml"/>
+		<IncludeBase ModelBehaviorFile="AIG\Lights.xml"/>
+		
+		<Component ID="DWAI_Convair_CV580_Templates">
+			<UseTemplate Name="DWAI_Convair_CV580_Common"/>
+		</Component>
+			
+	</Behaviors>
+</ModelInfo>

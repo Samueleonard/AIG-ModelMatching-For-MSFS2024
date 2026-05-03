@@ -43,7 +43,6 @@
 	
 	<Component ID="Nosewheel_Steering">
 		<UseTemplate Name="AIG_Nosewheel_Steering">
-			<ANIM_NAME>custom_anim_C_WHEEL_LR</ANIM_NAME>
 			<ANIM_SHARPNESS>42</ANIM_SHARPNESS>
 		</UseTemplate>
 	</Component>
@@ -97,16 +96,12 @@
 		</UseTemplate>
 	</Component>
 
-	<Component ID="Flaperons">
-		<UseTemplate Name="B777_Flaperon"/>
-	</Component>
-
 	<Component ID="Rudder">
 		<UseTemplate Name="AIG_Rudder_Deflection"/>
 	</Component>
 
 	<Component ID="FlapsSlats">
-		<UseTemplate Name="AIG_Flaps">
+		<Parameters Type="Default">
 			<FLAP_TO_DEGREES>50</FLAP_TO_DEGREES>
 			<FLAP1_SPEED>180</FLAP1_SPEED>
 			<FLAP1_DEGREES>100</FLAP1_DEGREES>
@@ -120,8 +115,6 @@
 			<FLAP5_DEGREES>16</FLAP5_DEGREES>
 			<FLAP6_SPEED>255</FLAP6_SPEED>
 			<FLAP6_DEGREES>3</FLAP6_DEGREES>
-		</UseTemplate>
-		<UseTemplate Name="AIG_Slats">
 			<SLAT_TO_DEGREES>83</SLAT_TO_DEGREES>
 			<SLAT1_SPEED>180</SLAT1_SPEED>
 			<SLAT1_DEGREES>100</SLAT1_DEGREES>
@@ -129,7 +122,10 @@
 			<SLAT2_DEGREES>67</SLAT2_DEGREES>
 			<SLAT3_SPEED>215</SLAT3_SPEED>
 			<SLAT3_DEGREES>50</SLAT3_DEGREES>
-		</UseTemplate>
+		</Parameters>
+		<UseTemplate Name="AIG_Flaps"/>
+		<UseTemplate Name="AIG_Slats"/>
+		<UseTemplate Name="B777_Flaperon"/>
     </Component>
 	
 	<Component ID="Wingflex">

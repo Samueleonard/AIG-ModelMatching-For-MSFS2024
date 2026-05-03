@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="50" ModelFile="FAIB_B7473_GE50_LOD0.gltf"/>
+		<LOD minSize="47" ModelFile="FAIB_B7473_GE50_LOD1.gltf"/>
+		<LOD minSize="42" ModelFile="FAIB_B7473_GE50_LOD2.gltf"/>
+		<LOD minSize="29" ModelFile="FAIB_B7473_GE50_LOD3.gltf"/>
+		<LOD minSize="3" ModelFile="FAIB_B7473_GE50_LOD4.gltf"/>
+		<LOD minSize="0.5" ModelFile="FAIB_B7473_GE50_LOD5.gltf"/>
+	</LODS>
+
+	<Behaviors>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\FAIB_Boeing_747.xml"/>
+
+		<Component ID="FAIB_Boeing_743_Templates">
+			<UseTemplate Name="FAIB_B743_FlapsSlats"/>
+			<UseTemplate Name="FAIB_B743_Parts_Visibility"/>
+		</Component>
+
+	</Behaviors>
+
+</ModelInfo>

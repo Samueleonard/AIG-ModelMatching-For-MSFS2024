@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="18" ModelFile="MGAI_Boeing_P8A_MSFS_LOD0.gltf"/>
+		<LOD minSize="15" ModelFile="MGAI_Boeing_P8A_MSFS_LOD1.gltf"/>
+		<LOD minSize="12" ModelFile="MGAI_Boeing_P8A_MSFS_LOD2.gltf"/>
+		<LOD minSize="4" ModelFile="MGAI_Boeing_P8A_MSFS_LOD3.gltf"/>
+		<LOD minSize="0.5" ModelFile="MGAI_Boeing_P8A_MSFS_LOD4.gltf"/>
+	</LODS>
+
+	<Behaviors>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\MGAI_Boeing_P8A_Poseidon.xml"/>
+	</Behaviors>
+
+</ModelInfo>

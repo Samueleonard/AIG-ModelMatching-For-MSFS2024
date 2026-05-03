@@ -45,7 +45,6 @@
 	
 	<Component ID="Nosewheel_Steering">
 		<UseTemplate Name="AIG_Nosewheel_Steering">
-			<ANIM_NAME>custom_anim_C_WHEEL_LR</ANIM_NAME>
 			<ANIM_SHARPNESS>50</ANIM_SHARPNESS>
 		</UseTemplate>
 	</Component>
@@ -61,23 +60,20 @@
 	<Component ID="Engine_Visibility">
 		<Parameters Type="Override">
 			<ENGINE_TYPE>Propeller</ENGINE_TYPE>
+			<STILL_NODE_ID>still_VC</STILL_NODE_ID>
+			<SLOW_NODE_ID>slow_VC</SLOW_NODE_ID>
+			<BLURRED_NODE_ID>blurred_VC</BLURRED_NODE_ID>
 		</Parameters>
 		<Component ID="Engine1">
 			<UseTemplate Name="AIG_Engine_Visibility_Template">
 				<ENGINE_ID>1</ENGINE_ID>
 				<NODE_PREFIX>prop0_</NODE_PREFIX>
-				<STILL_NODE_ID>still_VC</STILL_NODE_ID>
-				<SLOW_NODE_ID>slow_VC</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>blurred_VC</BLURRED_NODE_ID>
 			</UseTemplate>
 		</Component>
 		<Component ID="Engine2">
 			<UseTemplate Name="AIG_Engine_Visibility_Template">
 				<ENGINE_ID>2</ENGINE_ID>
 				<NODE_PREFIX>prop1_</NODE_PREFIX>
-				<STILL_NODE_ID>still_VC</STILL_NODE_ID>
-				<SLOW_NODE_ID>slow_VC</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>blurred_VC</BLURRED_NODE_ID>
 			</UseTemplate>
 		</Component>
 	</Component>
@@ -163,7 +159,6 @@
 	
 	<Component ID="Nosewheel_Steering">
 		<UseTemplate Name="AIG_Nosewheel_Steering">
-			<ANIM_NAME>custom_anim_C_WHEEL_LR</ANIM_NAME>
 			<ANIM_SHARPNESS>50</ANIM_SHARPNESS>
 		</UseTemplate>
 	</Component>
@@ -235,7 +230,6 @@
 	
 	<Component ID="Nosewheel_Steering">
 		<UseTemplate Name="AIG_Nosewheel_Steering">
-			<ANIM_NAME>custom_anim_C_WHEEL_LR</ANIM_NAME>
 			<ANIM_SHARPNESS>50</ANIM_SHARPNESS>
 		</UseTemplate>
 	</Component>
@@ -251,23 +245,20 @@
 	<Component ID="Engine_Visibility">
 		<Parameters Type="Override">
 			<ENGINE_TYPE>Propeller</ENGINE_TYPE>
+			<STILL_NODE_ID>still_VC</STILL_NODE_ID>
+			<SLOW_NODE_ID>slow_VC</SLOW_NODE_ID>
+			<BLURRED_NODE_ID>blurred_VC</BLURRED_NODE_ID>
 		</Parameters>
 		<Component ID="Engine1">
 			<UseTemplate Name="AIG_Engine_Visibility_Template">
 				<ENGINE_ID>1</ENGINE_ID>
 				<NODE_PREFIX>prop0_</NODE_PREFIX>
-				<STILL_NODE_ID>still_VC</STILL_NODE_ID>
-				<SLOW_NODE_ID>slow_VC</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>blurred_VC</BLURRED_NODE_ID>
 			</UseTemplate>
 		</Component>
 		<Component ID="Engine2">
 			<UseTemplate Name="AIG_Engine_Visibility_Template">
 				<ENGINE_ID>2</ENGINE_ID>
 				<NODE_PREFIX>prop1_</NODE_PREFIX>
-				<STILL_NODE_ID>still_VC</STILL_NODE_ID>
-				<SLOW_NODE_ID>slow_VC</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>blurred_VC</BLURRED_NODE_ID>
 			</UseTemplate>
 		</Component>
 	</Component>
@@ -346,7 +337,6 @@
 	
 	<Component ID="Nosewheel_Steering">
 		<UseTemplate Name="AIG_Nosewheel_Steering">
-			<ANIM_NAME>custom_anim_C_WHEEL_LR</ANIM_NAME>
 			<ANIM_SHARPNESS>50</ANIM_SHARPNESS>
 		</UseTemplate>
 	</Component>
@@ -362,41 +352,32 @@
 	<Component ID="Engine_Visibility">
 		<Parameters Type="Override">
 			<ENGINE_TYPE>Propeller</ENGINE_TYPE>
+			<STILL_NODE_ID>still_VC</STILL_NODE_ID>
+			<SLOW_NODE_ID>slow_VC</SLOW_NODE_ID>
+			<BLURRED_NODE_ID>blurred_VC</BLURRED_NODE_ID>
 		</Parameters>
 		<Component ID="Engine1">
 			<UseTemplate Name="AIG_Engine_Visibility_Template">
 				<ENGINE_ID>1</ENGINE_ID>
 				<NODE_PREFIX>prop0_</NODE_PREFIX>
-				<STILL_NODE_ID>still_VC</STILL_NODE_ID>
-				<SLOW_NODE_ID>slow_VC</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>blurred_VC</BLURRED_NODE_ID>
 			</UseTemplate>
 		</Component>
 		<Component ID="Engine2">
 			<UseTemplate Name="AIG_Engine_Visibility_Template">
 				<ENGINE_ID>2</ENGINE_ID>
 				<NODE_PREFIX>prop1_</NODE_PREFIX>
-				<STILL_NODE_ID>still_VC</STILL_NODE_ID>
-				<SLOW_NODE_ID>slow_VC</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>blurred_VC</BLURRED_NODE_ID>
 			</UseTemplate>
 		</Component>
 		<Component ID="Engine3">
 			<UseTemplate Name="AIG_Engine_Visibility_Template">
 				<ENGINE_ID>3</ENGINE_ID>
 				<NODE_PREFIX>prop2_</NODE_PREFIX>
-				<STILL_NODE_ID>still_VC</STILL_NODE_ID>
-				<SLOW_NODE_ID>slow_VC</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>blurred_VC</BLURRED_NODE_ID>
 			</UseTemplate>
 		</Component>
 		<Component ID="Engine4">
 			<UseTemplate Name="AIG_Engine_Visibility_Template">
 				<ENGINE_ID>4</ENGINE_ID>
 				<NODE_PREFIX>prop3_</NODE_PREFIX>
-				<STILL_NODE_ID>still_VC</STILL_NODE_ID>
-				<SLOW_NODE_ID>slow_VC</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>blurred_VC</BLURRED_NODE_ID>
 			</UseTemplate>
 		</Component>
 	</Component>
@@ -471,7 +452,6 @@
 	
 	<Component ID="Nosewheel_Steering">
 		<UseTemplate Name="AIG_Nosewheel_Steering">
-			<ANIM_NAME>custom_anim_C_WHEEL_LR</ANIM_NAME>
 			<ANIM_SHARPNESS>50</ANIM_SHARPNESS>
 		</UseTemplate>
 	</Component>
@@ -487,23 +467,20 @@
 	<Component ID="Engine_Visibility">
 		<Parameters Type="Override">
 			<ENGINE_TYPE>Propeller</ENGINE_TYPE>
+			<STILL_NODE_ID>still_VC</STILL_NODE_ID>
+			<SLOW_NODE_ID>slow_VC</SLOW_NODE_ID>
+			<BLURRED_NODE_ID>blurred_VC</BLURRED_NODE_ID>
 		</Parameters>
 		<Component ID="Engine1">
 			<UseTemplate Name="AIG_Engine_Visibility_Template">
 				<ENGINE_ID>1</ENGINE_ID>
 				<NODE_PREFIX>prop0_</NODE_PREFIX>
-				<STILL_NODE_ID>still_VC</STILL_NODE_ID>
-				<SLOW_NODE_ID>slow_VC</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>blurred_VC</BLURRED_NODE_ID>
 			</UseTemplate>
 		</Component>
 		<Component ID="Engine2">
 			<UseTemplate Name="AIG_Engine_Visibility_Template">
 				<ENGINE_ID>2</ENGINE_ID>
 				<NODE_PREFIX>prop1_</NODE_PREFIX>
-				<STILL_NODE_ID>still_VC</STILL_NODE_ID>
-				<SLOW_NODE_ID>slow_VC</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>blurred_VC</BLURRED_NODE_ID>
 			</UseTemplate>
 		</Component>
 	</Component>
@@ -578,7 +555,6 @@
 	
 	<Component ID="Nosewheel_Steering">
 		<UseTemplate Name="AIG_Nosewheel_Steering">
-			<ANIM_NAME>custom_anim_C_WHEEL_LR</ANIM_NAME>
 			<ANIM_SHARPNESS>50</ANIM_SHARPNESS>
 		</UseTemplate>
 	</Component>
@@ -606,23 +582,20 @@
 	<Component ID="Engine_Visibility">
 		<Parameters Type="Override">
 			<ENGINE_TYPE>Propeller</ENGINE_TYPE>
+			<STILL_NODE_ID>still_VC</STILL_NODE_ID>
+			<SLOW_NODE_ID>slow_VC</SLOW_NODE_ID>
+			<BLURRED_NODE_ID>blurred_VC</BLURRED_NODE_ID>
 		</Parameters>
 		<Component ID="Engine1">
 			<UseTemplate Name="AIG_Engine_Visibility_Template">
 				<ENGINE_ID>1</ENGINE_ID>
 				<NODE_PREFIX>prop0_</NODE_PREFIX>
-				<STILL_NODE_ID>still_VC</STILL_NODE_ID>
-				<SLOW_NODE_ID>slow_VC</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>blurred_VC</BLURRED_NODE_ID>
 			</UseTemplate>
 		</Component>
 		<Component ID="Engine2">
 			<UseTemplate Name="AIG_Engine_Visibility_Template">
 				<ENGINE_ID>2</ENGINE_ID>
 				<NODE_PREFIX>prop1_</NODE_PREFIX>
-				<STILL_NODE_ID>still_VC</STILL_NODE_ID>
-				<SLOW_NODE_ID>slow_VC</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>blurred_VC</BLURRED_NODE_ID>
 			</UseTemplate>
 		</Component>
 	</Component>
@@ -715,7 +688,6 @@
 	
 	<Component ID="Nosewheel_Steering">
 		<UseTemplate Name="AIG_Nosewheel_Steering">
-			<ANIM_NAME>custom_anim_C_WHEEL_LR</ANIM_NAME>
 			<ANIM_SHARPNESS>50</ANIM_SHARPNESS>
 		</UseTemplate>
 	</Component>
@@ -731,23 +703,20 @@
 	<Component ID="Engine_Visibility">
 		<Parameters Type="Override">
 			<ENGINE_TYPE>Propeller</ENGINE_TYPE>
+			<STILL_NODE_ID>still_VC</STILL_NODE_ID>
+			<SLOW_NODE_ID>slow_VC</SLOW_NODE_ID>
+			<BLURRED_NODE_ID>blurred_VC</BLURRED_NODE_ID>
 		</Parameters>
 		<Component ID="Engine1">
 			<UseTemplate Name="AIG_Engine_Visibility_Template">
 				<ENGINE_ID>1</ENGINE_ID>
 				<NODE_PREFIX>prop0_</NODE_PREFIX>
-				<STILL_NODE_ID>still_VC</STILL_NODE_ID>
-				<SLOW_NODE_ID>slow_VC</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>blurred_VC</BLURRED_NODE_ID>
 			</UseTemplate>
 		</Component>
 		<Component ID="Engine2">
 			<UseTemplate Name="AIG_Engine_Visibility_Template">
 				<ENGINE_ID>2</ENGINE_ID>
 				<NODE_PREFIX>prop1_</NODE_PREFIX>
-				<STILL_NODE_ID>still_VC</STILL_NODE_ID>
-				<SLOW_NODE_ID>slow_VC</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>blurred_VC</BLURRED_NODE_ID>
 			</UseTemplate>
 		</Component>
 	</Component>
@@ -822,7 +791,6 @@
 	
 	<Component ID="Nosewheel_Steering">
 		<UseTemplate Name="AIG_Nosewheel_Steering">
-			<ANIM_NAME>custom_anim_C_WHEEL_LR</ANIM_NAME>
 			<ANIM_SHARPNESS>50</ANIM_SHARPNESS>
 		</UseTemplate>
 	</Component>
@@ -851,25 +819,21 @@
 		<Parameters Type="Override">
 			<ENGINE_TYPE>Propeller</ENGINE_TYPE>
 			<STILL_NODE_ID_COUNT>2</STILL_NODE_ID_COUNT>
+			<STILL_NODE_ID>still_VC_0</STILL_NODE_ID>
+			<STILL_2_NODE_ID>still_VC_1</STILL_2_NODE_ID>
+			<SLOW_NODE_ID>slow_VC</SLOW_NODE_ID>
+			<BLURRED_NODE_ID>blurred_VC</BLURRED_NODE_ID>
 		</Parameters>
 		<Component ID="Engine1">
 			<UseTemplate Name="AIG_Engine_Visibility_Template">
 				<ENGINE_ID>1</ENGINE_ID>
 				<NODE_PREFIX>prop0_</NODE_PREFIX>
-				<STILL_NODE_ID>still_VC_0</STILL_NODE_ID>
-				<STILL_2_NODE_ID>still_VC_1</STILL_2_NODE_ID>
-				<SLOW_NODE_ID>slow_VC</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>blurred_VC</BLURRED_NODE_ID>
 			</UseTemplate>
 		</Component>
 		<Component ID="Engine2">
 			<UseTemplate Name="AIG_Engine_Visibility_Template">
 				<ENGINE_ID>2</ENGINE_ID>
 				<NODE_PREFIX>prop1_</NODE_PREFIX>
-				<STILL_NODE_ID>still_VC_0</STILL_NODE_ID>
-				<STILL_2_NODE_ID>still_VC_1</STILL_2_NODE_ID>
-				<SLOW_NODE_ID>slow_VC</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>blurred_VC</BLURRED_NODE_ID>
 			</UseTemplate>
 		</Component>
 	</Component>
@@ -934,7 +898,6 @@
 	
 	<Component ID="Nosewheel_Steering">
 		<UseTemplate Name="AIG_Nosewheel_Steering">
-			<ANIM_NAME>custom_anim_C_WHEEL_LR</ANIM_NAME>
 			<ANIM_SHARPNESS>50</ANIM_SHARPNESS>
 		</UseTemplate>
 	</Component>
@@ -1024,7 +987,6 @@
 	
 	<Component ID="Nosewheel_Steering">
 		<UseTemplate Name="AIG_Nosewheel_Steering">
-			<ANIM_NAME>custom_anim_C_WHEEL_LR</ANIM_NAME>
 			<ANIM_SHARPNESS>50</ANIM_SHARPNESS>
 		</UseTemplate>
 	</Component>
@@ -1052,23 +1014,20 @@
 	<Component ID="Engine_Visibility">
 		<Parameters Type="Override">
 			<ENGINE_TYPE>Propeller</ENGINE_TYPE>
+			<STILL_NODE_ID>still_VC</STILL_NODE_ID>
+			<SLOW_NODE_ID>slow_VC</SLOW_NODE_ID>
+			<BLURRED_NODE_ID>blurred_VC</BLURRED_NODE_ID>
 		</Parameters>
 		<Component ID="Engine1">
 			<UseTemplate Name="AIG_Engine_Visibility_Template">
 				<ENGINE_ID>1</ENGINE_ID>
 				<NODE_PREFIX>prop0_</NODE_PREFIX>
-				<STILL_NODE_ID>still_VC</STILL_NODE_ID>
-				<SLOW_NODE_ID>slow_VC</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>blurred_VC</BLURRED_NODE_ID>
 			</UseTemplate>
 		</Component>
 		<Component ID="Engine2">
 			<UseTemplate Name="AIG_Engine_Visibility_Template">
 				<ENGINE_ID>2</ENGINE_ID>
 				<NODE_PREFIX>prop1_</NODE_PREFIX>
-				<STILL_NODE_ID>still_VC</STILL_NODE_ID>
-				<SLOW_NODE_ID>slow_VC</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>blurred_VC</BLURRED_NODE_ID>
 			</UseTemplate>
 		</Component>
 	</Component>

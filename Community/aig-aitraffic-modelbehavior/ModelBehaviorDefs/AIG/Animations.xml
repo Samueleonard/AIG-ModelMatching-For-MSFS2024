@@ -381,7 +381,7 @@
 			<TAKEOFF_FLAPS>(A:SIM ON GROUND, bool) 1 == (A:SPOILERS HANDLE POSITION, percent) 0 == and if{ #FLAP_TO_DEGREES# }</TAKEOFF_FLAPS>
 			<LANDING_FLAPS>(A:SIM ON GROUND, bool) 1 == (A:SPOILERS HANDLE POSITION, percent) 0 &gt; and if{ #FLAP_LANDING_DEGREES# }</LANDING_FLAPS>
 			<CLIMBING>(A:PLANE ALT ABOVE GROUND, feet) 3000 &lt; (A:VERTICAL SPEED, feet per second) 10 &gt; and if{ #FLAP_TO_DEGREES# }</CLIMBING>
-			<FLIGHT_CONDITIONS>(A:SIM ON GROUND, bool) 0 == (A:AIRSPEED INDICATED, knots)</FLIGHT_CONDITIONS>
+			<FLIGHT_CONDITIONS>1 10000 (A:PLANE ALT ABOVE GROUND, feet) rng (A:AIRSPEED INDICATED, knots)</FLIGHT_CONDITIONS>
 		</Parameters>
 			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>#BEACON_ON#
@@ -435,7 +435,7 @@
 			<TAKEOFF_SLATS>(A:SIM ON GROUND, bool) 1 == (A:SPOILERS HANDLE POSITION, percent) 0 == and if{ #SLAT_TO_DEGREES# }</TAKEOFF_SLATS>
 			<LANDING_SLATS>(A:SIM ON GROUND, bool) 1 == (A:SPOILERS HANDLE POSITION, percent) 0 &gt; and if{ #SLAT_LANDING_DEGREES# }</LANDING_SLATS>
 			<CLIMBING>(A:PLANE ALT ABOVE GROUND, feet) 3000 &lt; (A:VERTICAL SPEED, feet per second) 10 &gt; and if{ #SLAT_TO_DEGREES# }</CLIMBING>
-			<FLIGHT_CONDITIONS>(A:SIM ON GROUND, bool) 0 == (A:AIRSPEED INDICATED, knots)</FLIGHT_CONDITIONS>
+			<FLIGHT_CONDITIONS>1 10000 (A:PLANE ALT ABOVE GROUND, feet) rng (A:AIRSPEED INDICATED, knots)</FLIGHT_CONDITIONS>
 		</Parameters>
 			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>#BEACON_ON#
@@ -587,11 +587,11 @@
 
 
 	<Template Name="AIG_Visibility_Template">
-		<DefaultTemplateParameters>
+		<Parameters Type="Default">
 			<RECURSIVE_ID>2</RECURSIVE_ID>
 			<NODE_PREFIX></NODE_PREFIX>
 			<PART>TYPE</PART>
-		</DefaultTemplateParameters>
+		</Parameters>
 		<Component ID="#PART#_#NODE_ID#">
 			<UseTemplate Name="AIG_Visibility_Base_Template"/>
 		</Component>
@@ -628,6 +628,12 @@
 	<Template Name="AIG_GroundParts_Visibility_Template">
 		<UseTemplate Name="ASOBO_GT_Visibility">
 			<VISIBILITY_CODE>(A:VELOCITY BODY Z,feet per second) 0 != (A:LIGHT BEACON, bool) or if{ 0 } els{ 1 }</VISIBILITY_CODE>
+		</UseTemplate>
+	</Template>
+
+	<Template Name="AIG_Covers_Visibility_Template">
+		<UseTemplate Name="ASOBO_GT_Visibility">
+			<VISIBILITY_CODE>(A:VELOCITY BODY Z,feet per second) 0 != (A:LIGHT NAV, bool) or if{ 0 } els{ 1 }</VISIBILITY_CODE>
 		</UseTemplate>
 	</Template>
 

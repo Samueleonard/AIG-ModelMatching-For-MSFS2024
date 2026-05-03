@@ -36,6 +36,12 @@
 	<Component ID="Engine_Visibility">
 		<Parameters Type="Override">
 			<ENGINE_TYPE>Propeller</ENGINE_TYPE>
+			<STILL_NODE_ID>still_VC_0</STILL_NODE_ID>
+			<STILL_2_NODE_ID>still_VC_1</STILL_2_NODE_ID>
+			<SLOW_NODE_ID>slow_VC_0</SLOW_NODE_ID>
+			<SLOW_2_NODE_ID>slow_VC_1</SLOW_2_NODE_ID>
+			<BLURRED_NODE_ID>blurred_VC_0</BLURRED_NODE_ID>
+			<BLURRED_2_NODE_ID>blurred_VC_1</BLURRED_2_NODE_ID>
 		</Parameters>
 		<Component ID="Engine1">
 			<UseTemplate Name="AIG_Engine_Visibility_Template">
@@ -45,12 +51,6 @@
 				<SLOW_NODE_ID_COUNT>2</SLOW_NODE_ID_COUNT>
 				<BLURRED_NODE_ID_COUNT>2</BLURRED_NODE_ID_COUNT>
 				<NODE_PREFIX>prop0_</NODE_PREFIX>
-				<STILL_NODE_ID>still_VC_0</STILL_NODE_ID>
-				<STILL_2_NODE_ID>still_VC_1</STILL_2_NODE_ID>
-				<SLOW_NODE_ID>slow_VC_0</SLOW_NODE_ID>
-				<SLOW_2_NODE_ID>slow_VC_1</SLOW_2_NODE_ID>
-				<BLURRED_NODE_ID>blurred_VC_0</BLURRED_NODE_ID>
-				<BLURRED_2_NODE_ID>blurred_VC_1</BLURRED_2_NODE_ID>
 			</UseTemplate>
 		</Component>
 	</Component>

@@ -31,19 +31,18 @@
 			<WHEEL_DIAMETER>4.166667</WHEEL_DIAMETER>
 		</UseTemplate>
 	</Component>
-	
+
 	<Component ID="Nosewheel_Steering">
 		<UseTemplate Name="AIG_Nosewheel_Steering">
-			<ANIM_NAME>custom_anim_C_WHEEL_LR</ANIM_NAME>
 			<ANIM_SHARPNESS>30</ANIM_SHARPNESS>
 		</UseTemplate>
 	</Component>
-	
+
 	<Component ID="Spoilers">
 		<UseTemplate Name="AIG_Spoiler_L_key"/>
 		<UseTemplate Name="AIG_Spoiler_R_key"/>
 	</Component>
-	
+
 	<Component ID="FlapsSlats">
 		<UseTemplate Name="AIG_Flaps">
 			<FLAP_TO_DEGREES>38</FLAP_TO_DEGREES>
@@ -92,7 +91,7 @@
 			<NODE_ID>landing_nose</NODE_ID>
 		</UseTemplate>
 	</Component>
-		
+
 	<Component ID="Light_Visibility">
 		<Component ID="landing_l2_vis" Node="landing_l2">
 			<UseTemplate Name="ASOBO_GT_Visibility">

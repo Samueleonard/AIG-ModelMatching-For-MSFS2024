@@ -494,21 +494,56 @@
 
 <!-- Boeing 777 -->
 
-
 	<Template Name="B777_Flaperon">
 		<Parameters Type="Default">
 			<ANIM_NAME>inner_aileron</ANIM_NAME>
+			<SIDE>LEFT</SIDE>
+			<SIGN></SIGN>
 			<ANIM_LENGTH>100</ANIM_LENGTH>
-			<ANIM_LAG>5</ANIM_LAG>
+			<ANIM_LAG>20</ANIM_LAG>
+			<FLAP_TO_DEGREES>50</FLAP_TO_DEGREES>
+			<FLAP1_SPEED/>
+			<FLAP1_DEGREES/>
+			<FLAP2_SPEED/>
+			<FLAP2_DEGREES/>
+			<FLAP3_SPEED/>
+			<FLAP3_DEGREES/>
+			<FLAP4_SPEED/>
+			<FLAP4_DEGREES/>
+			<FLAP5_SPEED/>
+			<FLAP5_DEGREES/>
+		</Parameters>
+		<Parameters Type="Default">
+			<FLAPERON>(A:AILERON #SIDE# DEFLECTION PCT, percent) #SIGN#1.2 * 0 max 100 min</FLAPERON>
+		</Parameters>
+		<Parameters Type="Default">
+			<IN_AIR>(A:SIM ON GROUND, bool) 0 ==</IN_AIR>
+			<CLIMBING>(A:PLANE ALT ABOVE GROUND, feet) 3000 &lt; (A:VERTICAL SPEED, feet per second) 10 &gt; and if{ #FLAP_TO_DEGREES# #FLAPERON# + }</CLIMBING>
+			<FLIGHT_CONDITIONS>1 10000 (A:PLANE ALT ABOVE GROUND, feet) rng (A:AIRSPEED INDICATED, knots)</FLIGHT_CONDITIONS>
+		</Parameters>
+		<Parameters Type="Default">
+			<FLAPS>
+				#FLIGHT_CONDITIONS# #FLAP1_SPEED# &lt; and if{ #FLAP1_DEGREES# #FLAPERON# + }
+				els{ #FLIGHT_CONDITIONS# #FLAP2_SPEED# &lt; and if{ #FLAP2_DEGREES# #FLAPERON# + }
+				els{ #FLIGHT_CONDITIONS# #FLAP3_SPEED# &lt; and if{ #FLAP3_DEGREES# #FLAPERON# + }
+				els{ #FLIGHT_CONDITIONS# #FLAP4_SPEED# &lt; and if{ #FLAP4_DEGREES# #FLAPERON# + }
+				els{ #FLIGHT_CONDITIONS# #FLAP5_SPEED# &lt; and if{ #FLAP5_DEGREES# #FLAPERON# + }
+			</FLAPS>
 		</Parameters>
 			<UseTemplate Name="ASOBO_GT_Anim">
-				<ANIM_CODE>(A:LIGHT BEACON, bool) if{ 
-				(A:GEAR ANIMATION POSITION:0, keyframe) 100 &gt; (A:SPOILERS HANDLE POSITION, percent) 0 == (A:TURB ENG N1:1, percent) 50 &gt; and and 
-				if{ (A:ELEVATOR DEFLECTION, radians) abs 0 &gt;
-				if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 1 &lt; if{ (A:LIGHT LANDING, bool) 1 == if{ (A:PLANE ALT ABOVE GROUND, feet) 1500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 45 } els{ (A:PLANE ALT ABOVE GROUND, feet) 2500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 30 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 0 } } } } els{ (A:PLANE ALT ABOVE GROUND, feet) 2500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) } } } 
-				els{ 100 (A:GROUND VELOCITY, knots) abs - 0 max } } 
-				els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 1 &lt; if{ (A:LIGHT LANDING, bool) 1 == if{ (A:PLANE ALT ABOVE GROUND, feet) 1500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 45 } els{ (A:PLANE ALT ABOVE GROUND, feet) 2500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 30 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 0 } } } } els{ (A:PLANE ALT ABOVE GROUND, feet) 2500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) } } (A:SPOILERS HANDLE POSITION, percent) - 0 max } } 
-				els{ 100 }</ANIM_CODE>
+				<ANIM_CODE>
+				#IN_AIR#
+				if{ #CLIMBING#
+				els{ #FLAPS# }
+				els{ #IN_AIR# if{ #FLAPERON# } } }
+				els{ (A:SIM ON GROUND, bool) 1 == 
+					if{ (A:LIGHT BEACON, bool) 0 == if{ 100 }
+					els{ (A:LIGHT BEACON, bool) 1 == (A:LIGHT LANDING, bool) 0 == and if{ #FLAP_TO_DEGREES# 2 / #FLAPERON# + }
+					els{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; if{ 0 }
+					els{ (A:LIGHT LANDING, bool) 1 ==
+      			if{ (A:TURB ENG N1:1, percent) 50 &gt; 0 100 (A:GROUND VELOCITY, knots) rng and if{ 125 (A:GROUND VELOCITY, knots) - 0 max 100 min }  
+      			els{ 73 } } } } } } }
+				</ANIM_CODE>
 			</UseTemplate>
 	</Template>
 
@@ -633,7 +668,7 @@
 		<Parameters Type="Default">
 			<IN_AIR>(A:SIM ON GROUND, bool) 0 ==</IN_AIR>
 			<CLIMBING>(A:PLANE ALT ABOVE GROUND, feet) 3000 &lt; (A:VERTICAL SPEED, feet per second) 10 &gt; and if{ #FLAP_TO_DEGREES# 2 / #FLAPERON# + }</CLIMBING>
-			<FLIGHT_CONDITIONS>(A:SIM ON GROUND, bool) 0 == (A:AIRSPEED INDICATED, knots)</FLIGHT_CONDITIONS>
+			<FLIGHT_CONDITIONS>1 10000 (A:PLANE ALT ABOVE GROUND, feet) rng (A:AIRSPEED INDICATED, knots)</FLIGHT_CONDITIONS>
 		</Parameters>
 			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>
@@ -777,6 +812,22 @@
 						if{ 20 } } }
 				els{ 0 }
 				</ANIM_CODE>
+			</UseTemplate>
+	</Template>
+
+
+<!-- Boeing P-8 Poseidon -->
+
+
+	<Template Name="MGAI_Boeing_P8_Poseidon_Aileron">
+		<Parameters Type="Default">
+			<ANIM_NAME>l_aileron_key</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>70</ANIM_LAG>
+			<DROOP>0</DROOP>
+		</Parameters>
+			<UseTemplate Name="ASOBO_GT_Anim">
+				<ANIM_CODE>(A:LIGHT BEACON, bool) 1 == if{ (A:ROTATION VELOCITY BODY Z, Feet) 100 * 50 + 0 max 100 min } els{ #DROOP# }</ANIM_CODE>
 			</UseTemplate>
 	</Template>
 

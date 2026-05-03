@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="25" ModelFile="DWAI_F27_MSFS_LOD0.gltf"/>
+		<LOD minSize="22" ModelFile="DWAI_F27_MSFS_LOD1.gltf"/>
+		<LOD minSize="19" ModelFile="DWAI_F27_MSFS_LOD2.gltf"/>
+		<LOD minSize="7" ModelFile="DWAI_F27_MSFS_LOD3.gltf"/>
+		<LOD minSize="0.5" ModelFile="DWAI_F27_MSFS_LOD4.gltf"/>
+	</LODS>
+
+	<Behaviors>
+		<Include ModelBehaviorFile="AIG\AircraftBases\DWAI_Aircraft.xml"/>
+		<IncludeBase ModelBehaviorFile="AIG\Lights.xml"/>
+		
+		<Component ID="DWAI_Fokker_F27_Templates">
+			<UseTemplate Name="DWAI_Fokker_F27_Common"/>
+		</Component>
+			
+	</Behaviors>
+
+</ModelInfo>

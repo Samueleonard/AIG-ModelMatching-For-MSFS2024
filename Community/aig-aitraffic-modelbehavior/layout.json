@@ -7,408 +7,413 @@
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/ACAI_Cessna_CitationCJ3.xml",
-      "size": 2220,
-      "date": 133625850979249894
+      "size": 2170,
+      "date": 134086715980107999
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/AIA_Boeing_717.xml",
-      "size": 4725,
-      "date": 133656917514780660
+      "size": 4534,
+      "date": 134086715980152840
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/AIA_Boeing_727.xml",
-      "size": 4578,
-      "date": 134024477147092293
+      "size": 4523,
+      "date": 134086715980152840
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/AIA_Boeing_737MAX.xml",
-      "size": 4230,
-      "date": 133652038289600370
+      "size": 4082,
+      "date": 134086715980152840
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/AIA_Boeing_747LCF.xml",
-      "size": 3126,
-      "date": 133652038289600370
+      "size": 3076,
+      "date": 134086715980152840
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/AIA_Canadair_CL215.xml",
-      "size": 3464,
-      "date": 133961453931628944
+      "size": 3059,
+      "date": 134086715980152840
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/AIA_Douglas_DC8.xml",
-      "size": 4251,
-      "date": 133656935112466418
+      "size": 3911,
+      "date": 134086715980152840
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/AIA_Embraer_120.xml",
-      "size": 4260,
-      "date": 133652038289600370
+      "size": 3958,
+      "date": 134086715980152840
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/AIA_Embraer_EJet.xml",
-      "size": 4074,
-      "date": 133652038289635407
+      "size": 3926,
+      "date": 134086715980152840
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/AIA_Fokker.xml",
-      "size": 3246,
-      "date": 133652038289635407
+      "size": 3196,
+      "date": 134086715980268198
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/AIA_McDonnellDouglas_MD8X.xml",
-      "size": 3087,
-      "date": 133656935112486462
+      "size": 3037,
+      "date": 134086715980152840
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/AIG_Airbus_A330.xml",
-      "size": 11076,
-      "date": 133992707582247057
+      "size": 10670,
+      "date": 134086715980268198
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/AIG_Airbus_A340.xml",
-      "size": 6299,
-      "date": 133992703634445369
+      "size": 5986,
+      "date": 134086715980268198
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/AIG_Antonov_An124.xml",
-      "size": 4101,
-      "date": 133656935112496460
+      "size": 3761,
+      "date": 134086715980268198
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/AIG_Boeing_757.xml",
-      "size": 12914,
-      "date": 133992653433996796
+      "size": 12864,
+      "date": 134086715980152840
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/AIG_Boeing_787.xml",
-      "size": 9096,
-      "date": 133625804005677800
+      "size": 8102,
+      "date": 134086715980268198
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/AIG_DeHavilland_Dash8.xml",
-      "size": 5843,
-      "date": 134007360262661328
+      "size": 5554,
+      "date": 134086726277932591
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/AIG_Dornier_328J.xml",
-      "size": 4014,
-      "date": 133652038289675455
+      "size": 3823,
+      "date": 134086715980268198
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/AIG_Douglas_DC9.xml",
-      "size": 3410,
-      "date": 133656935112526454
+      "size": 3360,
+      "date": 134086715980268198
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/AIG_Embraer_ERJ.xml",
-      "size": 4350,
-      "date": 133625798347413705
+      "size": 4171,
+      "date": 134086715980268198
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/AIG_Pilatus_PC12.xml",
-      "size": 3027,
-      "date": 133652038289715680
+      "size": 2974,
+      "date": 134086716572951785
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/ANAI_Diamond.xml",
-      "size": 2596,
-      "date": 133653253318959214
+      "size": 2591,
+      "date": 134086716572998059
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/ANAI_Piper.xml",
-      "size": 6135,
-      "date": 133652038289735720
+      "size": 6085,
+      "date": 134086716572998059
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/DJC_Bombardier_GlobalExpress.xml",
-      "size": 4485,
-      "date": 133652038289756149
+      "size": 4294,
+      "date": 134086715980268198
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/DJC_BritishAerospace_JS41.xml",
-      "size": 3620,
-      "date": 133652038289756149
+      "size": 3429,
+      "date": 134086716572998059
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/DJC_FairchildSwearingen.xml",
-      "size": 3753,
-      "date": 133656935112536457
+      "size": 3562,
+      "date": 134086716572998059
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/DWAI_Aircraft.xml",
-      "size": 34020,
-      "date": 133656935112561540
+      "size": 32062,
+      "date": 134086718593227973
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/FAIB_Airbus_A320.xml",
-      "size": 9604,
-      "date": 133652038289796180
+      "size": 9456,
+      "date": 134086718436724889
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/FAIB_Boeing_737.xml",
-      "size": 24947,
-      "date": 133656926812100465
+      "size": 24799,
+      "date": 134086718436724889
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/FAIB_Boeing_747.xml",
-      "size": 11639,
-      "date": 133652038289836189
+      "size": 11299,
+      "date": 134086718436761004
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/FAIB_Boeing_767.xml",
-      "size": 7524,
-      "date": 133652038289836189
+      "size": 7376,
+      "date": 134086718436781049
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/HTAI_Beechcraft_1900.xml",
-      "size": 3764,
-      "date": 133652038289836189
+      "size": 3616,
+      "date": 134086718436801092
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/HTAI_Beechcraft_C99.xml",
-      "size": 3616,
-      "date": 133652038289877366
+      "size": 3468,
+      "date": 134086718436801092
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/HTAI_Beechcraft_KingAir200.xml",
-      "size": 3966,
-      "date": 133652038289877366
+      "size": 3818,
+      "date": 134086718436801092
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/HTAI_Beechcraft_KingAir90.xml",
-      "size": 3669,
-      "date": 133652033264542496
+      "size": 3521,
+      "date": 134086718436801092
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/HTAI_Beechjet.xml",
-      "size": 4357,
-      "date": 133656935112581533
+      "size": 4209,
+      "date": 134086718436801092
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/HTAI_BritishAerospace125.xml",
-      "size": 3684,
-      "date": 133656935112601543
+      "size": 3536,
+      "date": 134086718436801092
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/HTAI_BrittenNorman_BN2.xml",
-      "size": 2626,
-      "date": 133633893958341403
+      "size": 2478,
+      "date": 134086718436883698
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/HTAI_Cessna_208.xml",
-      "size": 2350,
-      "date": 133634940092554488
+      "size": 2298,
+      "date": 134086718436903224
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/HTAI_Cessna_400.xml",
-      "size": 3612,
-      "date": 133652038289937409
+      "size": 3464,
+      "date": 134086718436917319
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/HTAI_Cessna_SE.xml",
-      "size": 10386,
-      "date": 133959644976056648
+      "size": 10333,
+      "date": 134086718436917319
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/HTAI_deHavilland_DHC6.xml",
-      "size": 2668,
-      "date": 133635677661654557
+      "size": 2520,
+      "date": 134086718436917319
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/HTAI_Gulfstream.xml",
-      "size": 4783,
-      "date": 133652038289957538
+      "size": 4635,
+      "date": 134086718436917319
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/HTAI_IAI_Westwind.xml",
-      "size": 3924,
-      "date": 133656935112631558
+      "size": 3776,
+      "date": 134086718436917319
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/HTAI_Learjet.xml",
-      "size": 3841,
-      "date": 133656935112651560
+      "size": 3693,
+      "date": 134086718436917319
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/HTAI_Lockheed_C130.xml",
-      "size": 3794,
-      "date": 133656935112693051
+      "size": 3327,
+      "date": 134086718436917319
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/HTAI_Lockheed_L100.xml",
-      "size": 3794,
-      "date": 133656935112723054
+      "size": 3327,
+      "date": 134086718437041127
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/JBAI_Challenger_600.xml",
-      "size": 4016,
-      "date": 133656935112743046
+      "size": 3825,
+      "date": 134086718437041127
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/JBAI_Dornier_328.xml",
-      "size": 3901,
-      "date": 133652038290075785
+      "size": 3710,
+      "date": 134086718437041127
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/JBAI_Falcon10.xml",
-      "size": 3926,
-      "date": 133656935112774936
+      "size": 3735,
+      "date": 134086718437041127
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/JBAI_Learjet.xml",
-      "size": 3370,
-      "date": 133636765014558762
+      "size": 3222,
+      "date": 134086718437041127
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/KCAI_Bombardier_CL30.xml",
-      "size": 4340,
-      "date": 133652038290115881
+      "size": 4149,
+      "date": 134086718437041127
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/KCAI_Gulfstream_G650.xml",
-      "size": 3958,
-      "date": 133652038290135914
+      "size": 3767,
+      "date": 134086718437041127
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/MGAI_Beechcraft_KingAir350.xml",
-      "size": 4490,
-      "date": 133841334758906968
+      "size": 4085,
+      "date": 134086718437041127
+    },
+    {
+      "path": "ModelBehaviorDefs/AIG/AircraftBases/MGAI_Boeing_P8A_Poseidon.xml",
+      "size": 4648,
+      "date": 134107469208168060
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/MRAI_Airbus_A306ST.xml",
-      "size": 2819,
-      "date": 133656932529498068
+      "size": 2769,
+      "date": 134086718437041127
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/NAAI_Fokker50.xml",
-      "size": 4120,
-      "date": 133652038290156038
+      "size": 3661,
+      "date": 134086718437201973
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/OSP_ATR.xml",
-      "size": 3664,
-      "date": 133652038290196074
+      "size": 3473,
+      "date": 134086718437201973
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/RFSL_Bombardier_CRJ.xml",
-      "size": 4107,
-      "date": 133652038290196074
+      "size": 3916,
+      "date": 134086718437201973
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/RFSL_Embraer_EJet.xml",
-      "size": 4165,
-      "date": 133655516737854417
+      "size": 3974,
+      "date": 134086718437201973
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/SBAI_Airbus_A220.xml",
-      "size": 4219,
-      "date": 133652038290276445
+      "size": 4028,
+      "date": 134086718437201973
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/SBAI_Beechcraft_Premier1A.xml",
-      "size": 2976,
-      "date": 133638938472489990
+      "size": 2828,
+      "date": 134086718437201973
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/SGAI_Falcon20.xml",
-      "size": 2726,
-      "date": 133656936975995717
+      "size": 2676,
+      "date": 134086718437201973
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/TBAI_Beechcraft.xml",
-      "size": 8394,
-      "date": 133652038290287300
+      "size": 7732,
+      "date": 134086718437201973
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/TBAI_Cessna.xml",
-      "size": 7989,
-      "date": 133652038290317395
+      "size": 7351,
+      "date": 134086718437358588
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/TBAI_Cirrus.xml",
-      "size": 1590,
-      "date": 133640105907885867
+      "size": 1534,
+      "date": 134086718437358588
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/TBAI_FairchildSwearingen.xml",
-      "size": 3536,
-      "date": 133656936652801372
+      "size": 3180,
+      "date": 134086718437391584
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/TBAI_Mitsubishi.xml",
-      "size": 3405,
-      "date": 133645048605022146
+      "size": 3099,
+      "date": 134085590857988149
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/TBAI_Mooney.xml",
-      "size": 2150,
-      "date": 133645048165997674
+      "size": 2144,
+      "date": 134085633915850046
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/TBAI_Piper.xml",
-      "size": 16510,
-      "date": 133652038290357578
+      "size": 15389,
+      "date": 134086718437431428
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/TBAI_Rockwell.xml",
-      "size": 2789,
-      "date": 133640957445855315
+      "size": 2483,
+      "date": 134085595638658027
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/TFS_Airbus_A300.xml",
-      "size": 5282,
-      "date": 133656932529523213
+      "size": 5091,
+      "date": 134086718437452823
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/TFS_Airbus_A310.xml",
-      "size": 4455,
-      "date": 133656932529543292
+      "size": 4264,
+      "date": 134086718437474445
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/TFS_Airbus_A340.xml",
-      "size": 6657,
-      "date": 133652038290442647
+      "size": 6190,
+      "date": 134086718437474445
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/TFS_Airbus_A380.xml",
-      "size": 10112,
-      "date": 133992662902400763
+      "size": 10062,
+      "date": 134086718437517766
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/TFS_Boeing_777.xml",
-      "size": 12919,
-      "date": 133993321960704500
+      "size": 12837,
+      "date": 134086718437517766
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/TFS_Saab.xml",
-      "size": 4418,
-      "date": 133652038290477685
+      "size": 4013,
+      "date": 134086718437564440
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/UTT_Airbus_A350.xml",
-      "size": 6550,
-      "date": 133992709404017249
+      "size": 6411,
+      "date": 134086718437588200
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/UTT_Boeing_787.xml",
-      "size": 23617,
-      "date": 133652038290477685
+      "size": 23567,
+      "date": 134086718437611445
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/UTT_Sukhoi_Superjet.xml",
-      "size": 4474,
-      "date": 133652038290517734
+      "size": 4376,
+      "date": 134085580288815412
     },
     {
       "path": "ModelBehaviorDefs/AIG/Animations.xml",
-      "size": 24895,
-      "date": 134007373774508637
+      "size": 25161,
+      "date": 134107573501090968
     },
     {
       "path": "ModelBehaviorDefs/AIG/AnimationsComplex.xml",
-      "size": 33852,
-      "date": 133993303608190697
+      "size": 34946,
+      "date": 134107966902017803
     },
     {
       "path": "ModelBehaviorDefs/AIG/Common.xml",
