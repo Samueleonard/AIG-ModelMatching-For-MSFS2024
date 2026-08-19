@@ -20,28 +20,38 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+def remove_existing_path(path: Path):
+    """
+    Removes a file, directory, symlink, or Windows junction.
+    """
+    if not os.path.lexists(path):
+        return
+
+    if path.is_dir():
+        is_junction = hasattr(path, "is_junction") and path.is_junction()
+        if path.is_symlink() or path.is_mount() or os.path.islink(path) or is_junction:
+            os.rmdir(path)
+        else:
+            shutil.rmtree(path)
+    else:
+        path.unlink()
+
 def create_junction(src: Path, dst: Path):
     """
     Creates a Directory Junction (mklink /J) from src to dst.
     """
-    if dst.exists():
-        if dst.is_dir() and not dst.is_symlink():
-            # It's a real directory, we must remove it to replace with junction
-            logger.info(f"Removing existing directory to replace with Junction: {dst}")
-            shutil.rmtree(dst)
-        elif dst.is_file() or dst.is_symlink() or dst.is_mount():
-            # It's a file or existing link, unlink it
-            dst.unlink()
+    if os.path.lexists(dst):
+        logger.info(f"Removing existing item to replace with Junction: {dst}")
+        remove_existing_path(dst)
 
     # Ensure parent exists
     dst.parent.mkdir(parents=True, exist_ok=True)
 
     # Command to create junction
     # mklink /J "Link" "Target"
-    cmd = ['mklink', '/J', str(dst), str(src)]
+    cmd = ['cmd', '/c', 'mklink', '/J', str(dst), str(src)]
     try:
-        # shell=True is required for mklink as it's a cmd internal command
-        subprocess.run(cmd, check=True, shell=True, stdout=subprocess.DEVNULL)
+        subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL)
         logger.info(f"Created Junction: {dst} -> {src}")
     except subprocess.CalledProcessError as e:
         logger.error(f"Failed to create junction for {dst}. Reason: {e}")
@@ -85,17 +95,7 @@ def clean_unexpected_items():
     for entry in folder.iterdir():
         if entry.name not in allowed_top_level:
             logger.info(f"Removing stale item: {entry.name}")
-            if entry.is_dir() and not entry.is_symlink():
-                shutil.rmtree(entry)
-            else:
-                try:
-                    entry.unlink()
-                except OSError:
-                    # Fallback for safe junction removal if unlink fails (though unlink should work)
-                    if entry.is_dir():
-                        os.rmdir(entry)
-                    else:
-                        raise
+            remove_existing_path(entry)
 
 def process_items():
     """

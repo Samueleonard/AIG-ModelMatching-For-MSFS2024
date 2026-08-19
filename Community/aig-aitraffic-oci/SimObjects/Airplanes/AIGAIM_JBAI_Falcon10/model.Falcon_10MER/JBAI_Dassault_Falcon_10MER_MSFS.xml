@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="31" ModelFile="JBAI_Dassault_Falcon_10MER_MSFS_LOD0.gltf"/>
+		<LOD minSize="30" ModelFile="JBAI_Dassault_Falcon_10MER_MSFS_LOD1.gltf"/>
+		<LOD minSize="29" ModelFile="JBAI_Dassault_Falcon_10MER_MSFS_LOD2.gltf"/>
+		<LOD minSize="28" ModelFile="JBAI_Dassault_Falcon_10MER_MSFS_LOD3.gltf"/>
+		<LOD minSize="25" ModelFile="JBAI_Dassault_Falcon_10MER_MSFS_LOD4.gltf"/>
+		<LOD minSize="21" ModelFile="JBAI_Dassault_Falcon_10MER_MSFS_LOD5.gltf"/>
+		<LOD minSize="19" ModelFile="JBAI_Dassault_Falcon_10MER_MSFS_LOD6.gltf"/>
+		<LOD minSize="3" ModelFile="JBAI_Dassault_Falcon_10MER_MSFS_LOD7.gltf"/>
+		<LOD minSize="0.5" ModelFile="JBAI_Dassault_Falcon_10MER_MSFS_LOD8.gltf"/>
+	</LODS>
+
+	<Behaviors>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\JBAI_Falcon10.xml"/>
+	</Behaviors>
+
+</ModelInfo>
